@@ -1,0 +1,6 @@
+model_checkpoint_path: "MobileNetForDigit3C_M2_new.ckpt-40"
+all_model_checkpoint_paths: "MobileNetForDigit3C_M2_new.ckpt-20"
+all_model_checkpoint_paths: "MobileNetForDigit3C_M2_new.ckpt-25"
+all_model_checkpoint_paths: "MobileNetForDigit3C_M2_new.ckpt-30"
+all_model_checkpoint_paths: "MobileNetForDigit3C_M2_new.ckpt-35"
+all_model_checkpoint_paths: "MobileNetForDigit3C_M2_new.ckpt-40"
