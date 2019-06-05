@@ -19,6 +19,12 @@ model_name="MobileNetForDigit3C_M2"
 
 support_image_extensions=[".jpg",".png",".jpeg",".bmp"]
 
+charDict = {'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9' : 9,
+        'A': 10, 'B': 11, 'C': 12, 'D': 13, 'E': 14, 'F': 15, 'G': 16, 'H': 17, 'I': 18,
+        'J': 19, 'K': 20, 'L': 21, 'M': 22, 'N': 23, 'O': 24, 'P': 25, 'Q': 26,'R': 27,
+        'S': 28, 'T': 29, 'U': 30, 'V': 31, 'W': 32, 'X': 33, 'Y': 34, 'Z': 35}
+is_specific_dict=True
+
 total_epoch_num=5
 batch_size=256
 channals=3
@@ -28,34 +34,39 @@ snapshot=1000
 input_width=28
 input_height=28
 
-def create_label_map():
-    label_dict={}
-    label_id=0
-    labels=[]
-    for label in os.listdir(train_dir):
-        labels.append(label)
-    labels.sort()
-    for label in labels:
-        label_dict[label]=label_id
-        label_id+=1
-    print(label_dict)
+def create_label_map(specific_dict=None):
+    if specific_dict is not None:
+        label_dict=specific_dict
+    else:
+        label_dict={}
+        label_id=0
+        labels=[]
+        for label in os.listdir(train_dir):
+            labels.append(label)
+        labels.sort()
+        for label in labels:
+            label_dict[label]=label_id
+            label_id+=1
+    print("label_dict:",label_dict)
     with open(label_map_path,"w") as fw:
         label_map_str=json.dumps(label_dict,indent=4)
         fw.write(label_map_str)
     return label_dict
 
-def load_label_map(replace=False):
+def load_label_map(specific_dict=None,is_specific=False):
+    #指定label_dict
+    if is_specific and specific_dict is not None:
+        return create_label_map(specific_dict)
     #创建新label_map
-    if not os.path.exists(label_map_path) or replace:
-        return create_label_map()
+    return create_label_map(None)
 
-    #使用label_map
-    with open(label_map_path,"r") as fr:
-        # label_dict=eval(fr.read())
-        label_dict=json.load(fr)
-    return label_dict
+    #使用原旧的label_map
+    # with open(label_map_path,"r") as fr:
+    #     # label_dict=eval(fr.read())
+    #     label_dict=json.load(fr)
+    # return label_dict
 
-label_dict=load_label_map(True)
+label_dict=load_label_map(charDict,is_specific=is_specific_dict)
 
 def get_images_path(image_dir):
     image_paths=[]
@@ -193,4 +204,5 @@ def train():
                 show_text="epoch:{},epoch-iters:{},total-iters:{},loss:{},accuarcy:{},lr:{},val:{}".format\
                              (epoch_num,iters_num+1,total_iters_num,_loss,_accuary,_learning_rate,_test_accuary)
                 print(show_text)
-train()
+if __name__=="__main__":
+    train()

@@ -114,4 +114,5 @@ def eval():
             # if not isCorrect:
             #     cv2.imshow("image",image)
             #     cv2.waitKey(0)
-eval()
+if __name__=="__main__":
+    eval()
