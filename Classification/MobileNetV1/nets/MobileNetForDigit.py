@@ -37,38 +37,39 @@ class MobileNetForDigit(object):
         return pointwise_bn
 
     def inference(self, preprocessed_inputs,width_multiplier=1,scope="MobileNetV1"):
-        with tf.variable_scope(scope) as sc:
-            #在每一层卷积后不使用激活函数
-            with slim.arg_scope([slim.convolution2d,slim.separable_convolution2d],activation_fn=None):
-                #仅仅在归一化层后使用激活函数-ReLU
-                with slim.arg_scope([slim.batch_norm],is_training=self.is_training,
-                                    activation_fn=tf.nn.relu,fused=True,decay=0.95):  #fused:是否使用一种更快的融合方法
-                    net=slim.convolution2d(preprocessed_inputs,round(32*width_multiplier),[3,3],stride=2,padding="SAME",scope="conv_1")
-                    net = slim.batch_norm(net, scope='conv_1/batch_norm')
+        with slim.arg_scope(self.mobilenet_arg_scope()):
+            with tf.variable_scope(scope) as sc:
+                #在每一层卷积后不使用激活函数
+                with slim.arg_scope([slim.convolution2d,slim.separable_convolution2d],activation_fn=None):
+                    #仅仅在归一化层后使用激活函数-ReLU
+                    with slim.arg_scope([slim.batch_norm],is_training=self.is_training,
+                                        activation_fn=tf.nn.relu,fused=True,decay=0.95):  #fused:是否使用一种更快的融合方法
+                        net=slim.convolution2d(preprocessed_inputs,round(32*width_multiplier),[3,3],stride=2,padding="SAME",scope="conv_1")
+                        net = slim.batch_norm(net, scope='conv_1/batch_norm')
 
-                    net = self.depthwise_separable_conv(net, 64, width_multiplier,name='conv_ds_2')  # 进行深度可卷积-depthwise和pointwise都执行
-                    net = self.depthwise_separable_conv(net, 128, width_multiplier, downsampling=True, name='conv_3')
-                    net = self.depthwise_separable_conv(net, 128, width_multiplier, name='conv_ds_4')
-                    net = self.depthwise_separable_conv(net, 256, width_multiplier, downsampling=True, name='conv_5')
-                    # net = self.depthwise_separable_conv(net, 256, width_multiplier, name='conv_ds_6')
-                    # net = self.depthwise_separable_conv(net, 512, width_multiplier, downsampling=True, name='conv_7')
+                        net = self.depthwise_separable_conv(net, 64, width_multiplier,name='conv_ds_2')  # 进行深度可卷积-depthwise和pointwise都执行
+                        net = self.depthwise_separable_conv(net, 128, width_multiplier, downsampling=True, name='conv_3')
+                        net = self.depthwise_separable_conv(net, 128, width_multiplier, name='conv_ds_4')
+                        net = self.depthwise_separable_conv(net, 256, width_multiplier, downsampling=True, name='conv_5')
+                        # net = self.depthwise_separable_conv(net, 256, width_multiplier, name='conv_ds_6')
+                        # net = self.depthwise_separable_conv(net, 512, width_multiplier, downsampling=True, name='conv_7')
 
-                    net = self.depthwise_separable_conv(net, 512, width_multiplier, name='conv_8')
-                    net = self.depthwise_separable_conv(net, 512, width_multiplier, name='conv_9')
-                    net = self.depthwise_separable_conv(net, 512, width_multiplier, name='conv_10')
-                    net = self.depthwise_separable_conv(net, 512, width_multiplier, name='conv_11')
-                    net = self.depthwise_separable_conv(net, 512, width_multiplier, name='conv_12')
+                        net = self.depthwise_separable_conv(net, 512, width_multiplier, name='conv_8')
+                        net = self.depthwise_separable_conv(net, 512, width_multiplier, name='conv_9')
+                        net = self.depthwise_separable_conv(net, 512, width_multiplier, name='conv_10')
+                        net = self.depthwise_separable_conv(net, 512, width_multiplier, name='conv_11')
+                        net = self.depthwise_separable_conv(net, 512, width_multiplier, name='conv_12')
 
-                    # net = self.depthwise_separable_conv(net, 1024, width_multiplier, downsampling=True, name='conv_13')
-                    # net = self.depthwise_separable_conv(net, 1024, width_multiplier, name='conv_ds_14')
-                    net = slim.avg_pool2d(net, [2, 2], scope='avg_pool_15')
+                        # net = self.depthwise_separable_conv(net, 1024, width_multiplier, downsampling=True, name='conv_13')
+                        # net = self.depthwise_separable_conv(net, 1024, width_multiplier, name='conv_ds_14')
+                        net = slim.avg_pool2d(net, [2, 2], scope='avg_pool_15')
 
-            shape=net.get_shape().as_list()
-            flat_height,flat_width,flat_channals=shape[1:]
-            flat_size=flat_height*flat_width*flat_channals
-            net = tf.reshape(net, shape=[-1, flat_size])
+                shape=net.get_shape().as_list()
+                flat_height,flat_width,flat_channals=shape[1:]
+                flat_size=flat_height*flat_width*flat_channals
+                net = tf.reshape(net, shape=[-1, flat_size])
 
-            net=slim.fully_connected(net,self.num_classes,activation_fn=None, scope='fc_16')
+                net=slim.fully_connected(net,self.num_classes,activation_fn=None, scope='fc_16')
 
         return net
 
@@ -88,5 +89,12 @@ class MobileNetForDigit(object):
                                     logits=logits+1e-8,labels=labels),name="softmax_loss")
         tf.add_to_collection("Loss",softmax_loss)
         loss_all=tf.add_n(tf.get_collection("Loss"),name="total_loss")
-
         return loss_all
+
+    def mobilenet_arg_scope(self,weight_decay=0.0):
+      with slim.arg_scope(
+          [slim.convolution2d, slim.separable_convolution2d],
+          weights_initializer=slim.initializers.xavier_initializer(),
+          biases_initializer=slim.init_ops.zeros_initializer(),
+          weights_regularizer=slim.l2_regularizer(weight_decay)) as sc:
+        return sc

@@ -11,3 +11,8 @@ arr=[[2.29058266e-08, 8.90816381e-08, 3.21978529e-04, 1.78394245e-07,
 arr=np.array(arr)
 label_id=np.argmax(arr,1)
 print(label_id)
+print("---------------")
+
+st="resNet_Digit"
+
+print(st=="resNet_Digit")
