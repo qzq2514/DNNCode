@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="762e0dfb-3742-4118-8df8-63a847a61910" name="Default Changelist" comment="resnetV1">
-      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/evalCKPT_Placeholder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/evalPB_Placeholder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/models/ResNetV1_MM2-8200.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/models/ResNetV1_MM2-8200.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/models/ckpt/ResNetV1_MM2.ckpt-8400.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/models/ckpt/ResNetV1_MM2.ckpt-8400.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/models/ckpt/ResNetV1_MM2.ckpt-8400.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/models/pb/ResNetV1_MM2-8200.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/nets/ResNet_Utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/train_classifier_ResNetV1_Placehoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/label_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1_34.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/MobileNetV1/nets/MobileNetForDigit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/MobileNetV1/nets/MobileNetForDigit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/MobileNetV1/nets/MobileNetV1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/MobileNetV1/nets/MobileNetV1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/demo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,9 +192,9 @@
       <find>print</find>
       <find>moving_mean</find>
       <find>keep_dims</find>
-      <find>inference</find>
       <find>one_moving_meaning</find>
       <find>channal_flag:</find>
+      <find>inference</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -270,8 +257,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="135" />
-    <option name="y" value="30" />
+    <option name="x" value="275" />
+    <option name="y" value="7" />
     <option name="width" value="1858" />
     <option name="height" value="1002" />
   </component>
@@ -295,6 +282,19 @@
               <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
               <item name="Classification" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="ResNetV1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="ResNetV1" type="462c0819:PsiDirectoryNode" />
+              <item name="nets" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -310,13 +310,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1\models" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1\models" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1\models\ckpt" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1\models\pb" />
       <recent name="P:\WorkSpace\myGithub\DNNCode" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1\nets" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\landmark\plateCorner\keras\models" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\landmark\plateCorner\keras" />
       <recent name="P:\WorkSpace\PyCharm\DNNCode\Classification\MobileNetV1\models\pb" />
@@ -475,7 +476,7 @@
       <workItem from="1559638066076" duration="1254000" />
       <workItem from="1559707925308" duration="14054000" />
       <workItem from="1559784502653" duration="6135000" />
-      <workItem from="1560126087455" duration="18470000" />
+      <workItem from="1560126087455" duration="18744000" />
     </task>
     <task id="LOCAL-00001" summary="specific label dict and add if __name__ == &quot;__main__&quot;">
       <created>1559710760596</created>
@@ -484,16 +485,23 @@
       <option name="project" value="LOCAL" />
       <updated>1559710760596</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="resnetV1">
+      <created>1560155504899</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560155504899</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127175000" />
+    <option name="totallyTimeSpent" value="127449000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="108" y="24" width="1486" height="801" extended-state="0" />
+    <frame x="220" y="6" width="1486" height="801" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2044818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31862745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.3286119" />
@@ -522,7 +530,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="specific label dict and add if __name__ == &quot;__main__&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="specific label dict and add if __name__ == &quot;__main__&quot;" />
+    <MESSAGE value="resnetV1" />
+    <option name="LAST_COMMIT_MESSAGE" value="resnetV1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Classification/MobileNetV1/train_classifier_MobileNet.py" />
@@ -748,9 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -818,6 +824,9 @@
           <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1.PNG">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/evalCKPT_Placeholder.py">
       <provider selected="true" editor-type-id="text-editor">
