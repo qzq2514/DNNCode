@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="762e0dfb-3742-4118-8df8-63a847a61910" name="Default Changelist" comment="resnetV1">
-      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/label_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1_34.PNG" afterDir="false" />
+    <list default="true" id="762e0dfb-3742-4118-8df8-63a847a61910" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Classification/MobileNetV1/label_map.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -257,10 +256,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="275" />
-    <option name="y" value="7" />
+    <option name="x" value="17" />
+    <option name="y" value="47" />
     <option name="width" value="1858" />
-    <option name="height" value="1002" />
+    <option name="height" value="1003" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -286,14 +285,7 @@
               <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
               <item name="Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="ResNetV1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="ResNetV1" type="462c0819:PsiDirectoryNode" />
-              <item name="nets" type="462c0819:PsiDirectoryNode" />
+              <item name="MobileNetV1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -476,7 +468,7 @@
       <workItem from="1559638066076" duration="1254000" />
       <workItem from="1559707925308" duration="14054000" />
       <workItem from="1559784502653" duration="6135000" />
-      <workItem from="1560126087455" duration="18744000" />
+      <workItem from="1560126087455" duration="19044000" />
     </task>
     <task id="LOCAL-00001" summary="specific label dict and add if __name__ == &quot;__main__&quot;">
       <created>1559710760596</created>
@@ -492,14 +484,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560155504899</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="resnetV1_34 network pictures">
+      <created>1560155779903</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560155779903</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127449000" />
+    <option name="totallyTimeSpent" value="127749000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="220" y="6" width="1486" height="801" extended-state="0" />
+    <frame x="14" y="38" width="1486" height="802" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31862745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -507,7 +506,7 @@
       <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42750373" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42686567" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -531,7 +530,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="specific label dict and add if __name__ == &quot;__main__&quot;" />
     <MESSAGE value="resnetV1" />
-    <option name="LAST_COMMIT_MESSAGE" value="resnetV1" />
+    <MESSAGE value="resnetV1_34 network pictures" />
+    <option name="LAST_COMMIT_MESSAGE" value="resnetV1_34 network pictures" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Classification/MobileNetV1/train_classifier_MobileNet.py" />
