@@ -14,7 +14,7 @@ images_dir = "D:/forTensorflow/plateLandmarkDetTrain2/images"
 # image_dir="D:/forTensorflow/plateLandmarkDetTrain/All/test/images/"
 # image_dir="D:/forTensorflow/plateLandmarkDetTrain/WI/images/"
 
-save_model_name="models/plateCornerDet"
+save_model_name="models/plateCornerDetFull"
 
 input_width=80
 input_height=40
@@ -91,7 +91,8 @@ def train():
                                            epochs=10, batch_size=batch_size, verbose=1)
         lr *= decay
         if i %10==0:
-            landmark_model.save_weights(save_model_name+str(i)+".h5")
+            #同时保存网络架构和参数,在测试时即可直接通过keras.models.load_model直接加载网络架构和对应的参数
+            landmark_model.save(save_model_name+str(i)+".h5")
             print("Succcessfully save model:", save_model_name + str(i) + ".h5")
 
 train()

@@ -9,6 +9,7 @@ import time
 from keras.models import Model
 from keras.layers import Dense,Dropout,Flatten,Conv2D,MaxPooling2D, Input, AveragePooling2D
 import keras
+from keras.models import load_model
 from nets import LprLocNet
 
 input_width = 80
@@ -18,12 +19,12 @@ channals_num=3
 show_width = 400
 show_height = 200
 
-image_path="test_images"
+# image_path="test_images"
 # image_path = "D:/forTensorflow/plateLandmarkDetTrain1/AZ/images"
-# image_path = "D:/forTensorflow/plateLandmarkDetTrain2/images"
+image_path = "D:/forTensorflow/plateLandmarkDetTrain2/images"
 # image_path = "P:/WorkSpace/LabProject/DNNEngineV3_2019_1batch_person/DNNEngine/pics"
 
-landmark_model_path="models/plateCornerDet30.h5"
+landmark_model_path="models/plateCornerDetFull30.h5"
 
 def preprocess(image_ori,input_width,input_height):
 	image = cv2.resize(image_ori, (input_width, input_height))
@@ -36,8 +37,8 @@ def preprocess(image_ori,input_width,input_height):
 
 if __name__ == '__main__':
     lanmark_object = LprLocNet.LprLocNet(input_width,input_height, channals_num,is_training=True)
-    lanmark_model=lanmark_object.constructDetModel()
-    lanmark_model.load_weights(landmark_model_path)
+    # lanmark_model=lanmark_object.constructDetModel()
+    lanmark_model=load_model(landmark_model_path)
     lanmark_model.summary()
     print(type(lanmark_model))
 
