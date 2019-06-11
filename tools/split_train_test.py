@@ -3,17 +3,17 @@ import os
 import random
 import shutil
 
-org_file_root=sys.argv[1]
-train_rate=float(sys.argv[2])
+org_file_root=sys.argv[1]             #原始图片集的文件夹(该文件夹下是每个类的图片的文件夹)
+train_rate=float(sys.argv[2])         #训练集比例
 print(train_rate)
 work_dir=os.path.split(org_file_root)[0]
 
 test_save_root=os.path.join(work_dir,"test")
 train_save_root=os.path.join(work_dir,"train")
-# if not os.path.exists(test_save_root):
-#     os.makedirs(test_save_root)
-# if not os.path.exists(train_save_root):
-#     os.makedirs(train_save_root)
+if not os.path.exists(test_save_root):
+    os.makedirs(test_save_root)
+if not os.path.exists(train_save_root):
+    os.makedirs(train_save_root)
 
 for root,dir,files in os.walk(org_file_root):
     if root==org_file_root:

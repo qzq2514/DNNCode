@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="762e0dfb-3742-4118-8df8-63a847a61910" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/landmark/plateCorner/get_trans_image.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/MobileNetV1/train_classifier_MobileNet_NoPlace.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/MobileNetV1/train_classifier_MobileNet_NoPlace.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/MobileNetV1/train_classifier_MobileNet_Placehoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/MobileNetV1/train_classifier_MobileNet_Placehoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/ResNetV1/label_map.json" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/ResNetV1/label_map.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/ResNetV1/train_classifier_ResNetV1_Placehoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/ResNetV1/train_classifier_ResNetV1_Placehoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/myDigitClassifier/label_map.json" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/myDigitClassifier/label_map.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/myDigitClassifier/train_myClassifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/myDigitClassifier/train_myClassifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/dataAugmentor.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/dataAugmentor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/split_train_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/split_train_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,20 +38,22 @@
     <SUITE FILE_PATH="coverage/DNNCode$train_classification.coverage" NAME="train_classification Coverage Results" MODIFIED="1559550928334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification" />
     <SUITE FILE_PATH="coverage/DNNCode$reTrainWithoueBN.coverage" NAME="reTrainWithoueBN Coverage Results" MODIFIED="1559622898088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$evalPB_model.coverage" NAME="evalPB_model Coverage Results" MODIFIED="1559710306853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/myDigitClassifier" />
-    <SUITE FILE_PATH="coverage/DNNCode$train_landmark.coverage" NAME="train_landmark Coverage Results" MODIFIED="1560220717465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_landmark.coverage" NAME="train_landmark Coverage Results" MODIFIED="1560235602348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode" />
     <SUITE FILE_PATH="coverage/DNNCode$evalCKPT_model2.coverage" NAME="evalCKPT_model2 Coverage Results" MODIFIED="1559625737546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$bn_test.coverage" NAME="bn_test Coverage Results" MODIFIED="1559565535067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/batch_mnist" />
     <SUITE FILE_PATH="coverage/DNNCode$train_stn__1_.coverage" NAME="train_stn (1) Coverage Results" MODIFIED="1560219474017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode" />
     <SUITE FILE_PATH="coverage/DNNCode$evalPB_model__1_.coverage" NAME="evalPB_model (1) Coverage Results" MODIFIED="1559627678734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$myCharClassifier.coverage" NAME="myCharClassifier Coverage Results" MODIFIED="1559524663637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/nets" />
-    <SUITE FILE_PATH="coverage/DNNCode$train_stn.coverage" NAME="train_stn Coverage Results" MODIFIED="1560164797872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/keras" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_stn.coverage" NAME="train_stn Coverage Results" MODIFIED="1560221877772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode" />
     <SUITE FILE_PATH="coverage/DNNCode$evalPB_model__2_.coverage" NAME="evalPB_model (2) Coverage Results" MODIFIED="1559557507757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$MobileNetForDigit.coverage" NAME="MobileNetForDigit Coverage Results" MODIFIED="1559549344106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/nets" />
+    <SUITE FILE_PATH="coverage/DNNCode$test_landmark.coverage" NAME="test_landmark Coverage Results" MODIFIED="1560237195128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode" />
     <SUITE FILE_PATH="coverage/DNNCode$train2.coverage" NAME="train2 Coverage Results" MODIFIED="1559471769539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification" />
     <SUITE FILE_PATH="coverage/DNNCode$evalPB_NoPlace.coverage" NAME="evalPB_NoPlace Coverage Results" MODIFIED="1559633216545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$evalPB_NoPlace2.coverage" NAME="evalPB_NoPlace2 Coverage Results" MODIFIED="1559633233657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$train_classifier_MobileNet_Placehoder.coverage" NAME="train_classifier_MobileNet_Placehoder Coverage Results" MODIFIED="1559743181548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
-    <SUITE FILE_PATH="coverage/DNNCode$stn_model.coverage" NAME="stn_model Coverage Results" MODIFIED="1560166928228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/keras" />
+    <SUITE FILE_PATH="coverage/DNNCode$stn_model.coverage" NAME="stn_model Coverage Results" MODIFIED="1560222345523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode" />
+    <SUITE FILE_PATH="coverage/DNNCode$test_landmark__1_.coverage" NAME="test_landmark (1) Coverage Results" MODIFIED="1560237560100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LprLocNet" />
     <SUITE FILE_PATH="coverage/DNNCode$reTrainWithoutBN.coverage" NAME="reTrainWithoutBN Coverage Results" MODIFIED="1559557729436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$train_classifier_ResNetV1_Placehoder.coverage" NAME="train_classifier_ResNetV1_Placehoder Coverage Results" MODIFIED="1560220249750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark" />
     <SUITE FILE_PATH="coverage/DNNCode$train_classifier_ResNetV1_Placehoder2.coverage" NAME="train_classifier_ResNetV1_Placehoder2 Coverage Results" MODIFIED="1560134106695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ResNetV1" />
@@ -76,28 +75,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/evalCKPT_Placeholder.py">
+        <entry file="file://$PROJECT_DIR$/tools/dataAugmentor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/numpy/core/fromnumeric.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-360">
-              <caret line="1655" column="4" selection-start-line="1655" selection-start-column="4" selection-end-line="1655" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/train_classifier_ResNetV1_Placehoder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2464">
-              <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
+            <state relative-caret-position="132">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -106,61 +87,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Classification/myDigitClassifier/train_myClassifier.py">
+        <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_landmark.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="125" column="31" selection-start-line="125" selection-start-column="31" selection-end-line="125" selection-end-column="31" />
+            <state relative-caret-position="154">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classification/MobileNetV1/train_classifier_MobileNet_NoPlace.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="125" column="63" selection-start-line="125" selection-start-column="63" selection-end-line="125" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classification/MobileNetV1/train_classifier_MobileNet_Placehoder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="130" column="84" selection-start-line="130" selection-start-column="84" selection-end-line="130" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode/stn_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/keras/engine/training.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="951" selection-start-line="951" selection-end-line="951" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/keras/engine/training_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="137" selection-start-line="137" selection-end-line="137" />
             </state>
           </provider>
         </entry>
@@ -176,11 +109,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>infos</find>
-      <find>data_init</find>
-      <find>is_training_placeholder</find>
-      <find>batch_norm_scale</find>
-      <find>normmalizer_fn</find>
       <find>stack_ResBlocks</find>
       <find>conv2d_same</find>
       <find>postprocess</find>
@@ -200,15 +128,21 @@
       <find>kernel_size</find>
       <find>channal_flag:</find>
       <find>s_width</find>
-      <find>width</find>
       <find>np.reshape</find>
       <find>res</find>
       <find>np.resize</find>
       <find>np.re</find>
       <find>loadData</find>
+      <find>norm(</find>
+      <find>constructDetModel</find>
+      <find>width</find>
+      <find>h</find>
+      <find>convert_variables_to_constants</find>
+      <find>org_h</find>
     </findStrings>
     <replaceStrings>
       <replace>corners</replace>
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -217,14 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Classification/evalPB_model.py" />
-        <option value="$PROJECT_DIR$/Classification/nets/MobileNetForDigit.py" />
-        <option value="$PROJECT_DIR$/Classification/train_classification.py" />
-        <option value="$PROJECT_DIR$/Classification/train_myClassifier.py" />
-        <option value="$PROJECT_DIR$/Classification/MobileNetV1/reTrainWithoutBN.py" />
-        <option value="$PROJECT_DIR$/Classification/batch_mnist/bn_train.py" />
-        <option value="$PROJECT_DIR$/Classification/batch_mnist/bn_test.py" />
-        <option value="$PROJECT_DIR$/Classification/MobileNetV1/train_classifier_MobileNet.py" />
         <option value="$PROJECT_DIR$/Classification/MobileNetV1/CKPT2PB_NoBN.py" />
         <option value="$PROJECT_DIR$/Classification/MobileNetV1/evalCKPT_model2_M2.py" />
         <option value="$PROJECT_DIR$/Classification/MobileNetV1/reTrainWithoueBN.py" />
@@ -259,23 +185,31 @@
         <option value="$PROJECT_DIR$/landmark/plateCorner/keras/train_stn.py" />
         <option value="$PROJECT_DIR$/landmark/plateCorner/keras/stn_model.py" />
         <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/keras/stn_model.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode/stn_model.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode/train_stn.py" />
         <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/training_regression.py" />
         <option value="$PROJECT_DIR$/landmark/train_classifier_ResNetV1_Placehoder.py" />
         <option value="$PROJECT_DIR$/Classification/MobileNetV1/train_classifier_MobileNet_NoPlace.py" />
         <option value="$PROJECT_DIR$/Classification/MobileNetV1/train_classifier_MobileNet_Placehoder.py" />
         <option value="$PROJECT_DIR$/Classification/ResNetV1/train_classifier_ResNetV1_Placehoder.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/train_landmark.py" />
         <option value="$PROJECT_DIR$/Classification/myDigitClassifier/train_myClassifier.py" />
+        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode/stn_model.py" />
+        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode/train_stn.py" />
+        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/net/lprNet.py" />
+        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/nets/LPRNet.py" />
+        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/nets/LprLocNet.py" />
+        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/train_landmark.py" />
+        <option value="$PROJECT_DIR$/tools/split_train_test.py" />
+        <option value="$PROJECT_DIR$/tools/dataAugmentor.py" />
+        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/test_landmark.py" />
+        <option value="$PROJECT_DIR$/tools/keras2tensorflowPB.py" />
+        <option value="$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_landmark.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="66" />
-    <option name="y" value="42" />
-    <option name="width" value="1944" />
-    <option name="height" value="1005" />
+    <option name="x" value="-4" />
+    <option name="y" value="67" />
+    <option name="width" value="1943" />
+    <option name="height" value="1010" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -285,7 +219,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,13 +234,26 @@
             <path>
               <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="myDigitClassifier" type="462c0819:PsiDirectoryNode" />
+              <item name="landmark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
+              <item name="landmark" type="462c0819:PsiDirectoryNode" />
+              <item name="plateCorner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
+              <item name="landmark" type="462c0819:PsiDirectoryNode" />
+              <item name="plateCorner" type="462c0819:PsiDirectoryNode" />
+              <item name="LprLocNet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,19 +264,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="P:\WorkSpace\myGithub\DNNCode\landmark\plateCorner\LPRLocNet" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\landmark\plateCorner" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1\nets" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\landmark\plateCorner\keras\models" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\landmark\plateCorner\keras" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\WorkSpace\myGithub\DNNCode" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\landmark" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\landmark\plateCorner\LPRLocNet\myCode" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\landmark\plateCorner" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\WorkSpace\myGithub\DNNCode\landmark\plateCorner\LprLocNet\nets" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\landmark\plateCorner\LPRLocNet\myCode\models" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\landmark\plateCorner\LPRLocNet" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\landmark\plateCorner" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1\nets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -345,8 +291,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train_landmark">
-    <configuration name="train_classifier_ResNetV1_Placehoder (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test_landmark (1)">
+    <configuration name="stn_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNNCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -354,12 +300,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classification/ResNetV1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classification/ResNetV1/train_classifier_ResNetV1_Placehoder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode/stn_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -368,7 +314,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train_classifier_ResNetV1_Placehoder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_landmark (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNNCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -376,12 +322,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/landmark" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/landmark/plateCorner/LprLocNet" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/landmark/train_classifier_ResNetV1_Placehoder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_landmark.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_landmark" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DNNCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/test_landmark.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -412,7 +380,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train_myClassifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="train_stn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNNCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -420,34 +388,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classification/myDigitClassifier" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classification/myDigitClassifier/train_myClassifier.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="training_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DNNCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/training_regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode/train_stn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -458,11 +404,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_landmark (1)" />
+        <item itemvalue="Python.test_landmark" />
         <item itemvalue="Python.train_landmark" />
-        <item itemvalue="Python.train_classifier_ResNetV1_Placehoder (1)" />
-        <item itemvalue="Python.train_myClassifier" />
-        <item itemvalue="Python.train_classifier_ResNetV1_Placehoder" />
-        <item itemvalue="Python.training_regression" />
+        <item itemvalue="Python.stn_model" />
+        <item itemvalue="Python.train_stn" />
       </list>
     </recent_temporary>
   </component>
@@ -487,6 +433,7 @@
       <workItem from="1559784502653" duration="6135000" />
       <workItem from="1560126087455" duration="31540000" />
       <workItem from="1560214244646" duration="6524000" />
+      <workItem from="1560220815140" duration="10175000" />
     </task>
     <task id="LOCAL-00001" summary="specific label dict and add if __name__ == &quot;__main__&quot;">
       <created>1559710760596</created>
@@ -516,26 +463,41 @@
       <option name="project" value="LOCAL" />
       <updated>1560156070486</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="exchange w and h for np.resize/np.reshape/cv2.resize">
+      <created>1560220909700</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560220909701</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146769000" />
+    <option name="totallyTimeSpent" value="156944000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-86" y="52" width="1554" height="803" extended-state="0" />
-    <editor active="true" />
+    <frame x="-3" y="54" width="1554" height="808" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15441176" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19251336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2071535" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23816568" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32886904" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
@@ -558,51 +520,10 @@
     <MESSAGE value="resnetV1" />
     <MESSAGE value="resnetV1_34 network pictures" />
     <MESSAGE value="MobileNwtV1 label map" />
-    <option name="LAST_COMMIT_MESSAGE" value="MobileNwtV1 label map" />
+    <MESSAGE value="exchange w and h for np.resize/np.reshape/cv2.resize" />
+    <option name="LAST_COMMIT_MESSAGE" value="exchange w and h for np.resize/np.reshape/cv2.resize" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Classification/MobileNetV1/evalCKPT_model2.py" />
-    <entry file="file://$PROJECT_DIR$/Classification/MobileNetV1/nets/MobileNetForDigit22.py" />
-    <entry file="file://$PROJECT_DIR$/Classification/myDigitClassifier/models/myCharClassifier-3000.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/dataAugmentor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/split_train_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/MobileNetV1/train_classifier_MobileNet_placeholder_specific.py" />
-    <entry file="file://$PROJECT_DIR$/Classification/MobileNetV1/evalPB_NoPlace2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="137" column="10" selection-start-line="137" selection-start-column="10" selection-end-line="137" selection-end-column="10" />
-          <folding>
-            <element signature="e#48#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/myDigitClassifier/evalCKPT_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="117" column="4" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
-          <folding>
-            <element signature="e#48#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Classification/MobileNetV1/label_map.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -700,44 +621,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/train_classifier_ResNetV1_Placehoder2.py" />
     <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV12.py" />
-    <entry file="file://$PROJECT_DIR$/Classification/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNet_Utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="45" column="85" selection-start-line="45" selection-start-column="85" selection-end-line="45" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/landmark/plateCorner/get_trans_image2.py" />
-    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/get_trans_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2102">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/get_trans_image.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1861741381/cv2/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -786,44 +674,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode/stn_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/keras/engine/training_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/keras/engine/training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="951" selection-start-line="951" selection-end-line="951" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/training_regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode/train_stn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/training_regression.py" />
+    <entry file="file://$PROJECT_DIR$/landmark/train_classifier_ResNetV1_Placehoder.py" />
     <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/evalCKPT_Placeholder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -831,55 +683,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/landmark/train_classifier_ResNetV1_Placehoder.py">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/numpy/core/fromnumeric.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-464">
-          <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="36168">
+          <caret line="1655" column="4" selection-start-line="1655" selection-start-column="4" selection-end-line="1655" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classification/MobileNetV1/train_classifier_MobileNet_NoPlace.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
+        <state relative-caret-position="2596">
           <caret line="125" column="63" selection-start-line="125" selection-start-column="63" selection-end-line="125" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classification/MobileNetV1/train_classifier_MobileNet_Placehoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="2706">
           <caret line="130" column="84" selection-start-line="130" selection-start-column="84" selection-end-line="130" selection-end-column="84" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/train_classifier_ResNetV1_Placehoder.py">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/keras/engine/training.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2464">
-          <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="20328">
+          <caret line="951" selection-start-line="951" selection-end-line="951" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/numpy/core/fromnumeric.py">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/keras/engine/training_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="1655" column="4" selection-start-line="1655" selection-start-column="4" selection-end-line="1655" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/train_landmark.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#502#1091#0" />
-          </folding>
+        <state relative-caret-position="2794">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
         </state>
       </provider>
     </entry>
@@ -887,6 +722,126 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="125" column="31" selection-start-line="125" selection-start-column="31" selection-end-line="125" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/lpr_locNet.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode/stn_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="79" column="38" selection-end-line="118" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landmark/label_map.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode/train_stn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1045">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNet_Utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="973">
+          <caret line="45" column="85" selection-start-line="45" selection-start-column="85" selection-end-line="45" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/train_landmark.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/train_classifier_ResNetV1_Placehoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="207" column="76" selection-start-line="207" selection-start-column="46" selection-end-line="207" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/split_train_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/nets/LprLocNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/keras2tensorflowPB.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/test_landmark.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/dataAugmentor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_landmark.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

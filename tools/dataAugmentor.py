@@ -3,8 +3,8 @@ import cv2
 import numpy as np
 import sys
 
-org_files_dir=sys.argv[1]
-multiple_num=int(sys.argv[2])
+org_files_dir=sys.argv[1]           #原数据集所在的文件夹
+multiple_num=int(sys.argv[2])       #需要增强的倍数
 
 argument_save_dir=os.path.join(org_files_dir,"Argument")
 org_files=os.listdir(org_files_dir)
