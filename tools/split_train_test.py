@@ -3,6 +3,7 @@ import os
 import random
 import shutil
 
+#一次性分割所有类别的数据集
 org_file_root=sys.argv[1]             #原始图片集的文件夹(该文件夹下是每个类的图片的文件夹)
 train_rate=float(sys.argv[2])         #训练集比例
 print(train_rate)
