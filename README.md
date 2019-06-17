@@ -1,10 +1,9 @@
-# DNNCode
-DNN learning
+# DNN learning
 
-DNN Code including classification,landmark,text recognition...
+DNN Code including classification,landmark,text recognition...  
 Training and testing script of each DNN project is included.
 
-Classification:
+## Classification:
 
 |   Detector   | Accuarcy (%)
 |:------------:|:-------------------:|
@@ -15,5 +14,13 @@ Classification:
 
 
 
-landmark:
-...
+## landmark:
+
+#### License plate corner detection
+![](https://github.com/qzq2514/ImageForGithubMakdown/blob/master/DNNCode/landmark1.PNG)
+![](https://github.com/qzq2514/ImageForGithubMakdown/blob/master/DNNCode/landmark2.PNG) 
+![](https://github.com/qzq2514/ImageForGithubMakdown/blob/master/DNNCode/landmark3.PNG)
+![](https://github.com/qzq2514/ImageForGithubMakdown/blob/master/DNNCode/landmark4.PNG) 
+
+
+
