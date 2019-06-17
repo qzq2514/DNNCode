@@ -7,12 +7,12 @@ Training and testing script of each DNN project is included.
 Classification models are trained and evaluated on the task of character classification including 36 characters(10 digits and 26 uppercase letter).  
 Readers can fine-tuning the network architecture for your own tasks.
 
-|   Classifier   | Accuarcy (%)
-|:------------:|:-------------------:|
-| my classification    |        99.9        |
-|    MobileNetV1   |        99.8        |
-|   ResNetV1    |     98.7    |
-|  ShuffleNetV1  |     92.5    |
+|   Classifier   | Accuarcy (%)|  Speed (ms)|
+|:------------:|:-------------------:|:-------------------:|
+| my classification    |        99.6        |  1.62|
+|    MobileNetV1   |        99.3        |  0.63|
+|   ResNetV1    |     96.4    |3.52|
+|  ShuffleNetV1  |     92.7    |    1.52|
 
 
 
