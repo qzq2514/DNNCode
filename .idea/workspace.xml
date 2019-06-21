@@ -2,29 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="762e0dfb-3742-4118-8df8-63a847a61910" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/evalPB_Placeholder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/models/ckpt/ShuffleNetV1_M3-4000.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/models/ckpt/ShuffleNetV1_M3.ckpt-4000.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/models/ckpt/ShuffleNetV1_M3.ckpt-4000.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/models/ckpt/ShuffleNetV1_M3.ckpt-4000.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/models/ckpt/ShuffleNetV1_M4-5000.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/models/ckpt/ShuffleNetV1_M4.ckpt-5000.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/models/ckpt/ShuffleNetV1_M4.ckpt-5000.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/models/ckpt/ShuffleNetV1_M4.ckpt-5000.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/models/openvino/ShuffleNetV1_M3-4000.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/models/openvino/ShuffleNetV1_M3-4000.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/models/openvino/ShuffleNetV1_M4-5000.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/models/openvino/ShuffleNetV1_M4-5000.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/models/pb/ShuffleNetV1_M3-4000.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/models/pb/ShuffleNetV1_M4-5000.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/nets/ShuffleNetV1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/nets/ShuffleNetV1ForDigit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/nets/shuffleNetV1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/nets/shuffleNetV1_unit.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/train_classifier_shuffleNetV1_Placehoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/evalCKPT1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/evalPB1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/eval_freeze_openvino.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/freezeModel/CTC_ISR_frezee.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/freezeModel/CTC_ISR_frezee.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/freezeModel/CTC_ISR_frezee.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/freezing_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/get_filepath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/models1/ckpt/CTC_ISR1-20200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/models1/ckpt/CTC_ISR1-20200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/models1/ckpt/CTC_ISR1-20200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/models1/ckpt/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/models1/pb/CTC_ISR1-20200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/models2/ckpt/CTC_ISR2-13400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/models2/ckpt/CTC_ISR2-13400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/models2/ckpt/CTC_ISR2-13400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/models2/ckpt/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/models2/pb/CTC_ISR2-13400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/net/CTCRecognizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/test_images/1082584_1113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/test_images/1082584_1115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/test_images/1094984_2166.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRec1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRec2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRec_2ways.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/MobileNetV1/label_map.json" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/MobileNetV1/label_map.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/ShuffleNetV1/label_map.json" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/label_map.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,64 +38,103 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DNNCode$evalCKPT_NoPlace.coverage" NAME="evalCKPT_NoPlace Coverage Results" MODIFIED="1559633105469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
-    <SUITE FILE_PATH="coverage/DNNCode$LprNetRec.coverage" NAME="LprNetRec Coverage Results" MODIFIED="1560564834336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/net" />
     <SUITE FILE_PATH="coverage/DNNCode$ResNetV1.coverage" NAME="ResNetV1 Coverage Results" MODIFIED="1560135925375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ResNetV1/nets" />
-    <SUITE FILE_PATH="coverage/DNNCode$get_trans_image__1_.coverage" NAME="get_trans_image (1) Coverage Results" MODIFIED="1560164480786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner" />
-    <SUITE FILE_PATH="coverage/DNNCode$evalCKPT_model2_M2.coverage" NAME="evalCKPT_model2_M2 Coverage Results" MODIFIED="1559626294219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
+    <SUITE FILE_PATH="coverage/DNNCode$test.coverage" NAME="test Coverage Results" MODIFIED="1560687016903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/VerificationCodeRec" />
+    <SUITE FILE_PATH="coverage/DNNCode$evalCKPT1.coverage" NAME="evalCKPT1 Coverage Results" MODIFIED="1561104788417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
     <SUITE FILE_PATH="coverage/DNNCode$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1560659067902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification" />
     <SUITE FILE_PATH="coverage/DNNCode$evalCKPT_Placeholder.coverage" NAME="evalCKPT_Placeholder Coverage Results" MODIFIED="1560154524266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ResNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$train_myClassifier.coverage" NAME="train_myClassifier Coverage Results" MODIFIED="1560220495766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/myDigitClassifier" />
+    <SUITE FILE_PATH="coverage/DNNCode$eval_CTC_pharse.coverage" NAME="eval_CTC_pharse Coverage Results" MODIFIED="1561103635024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$LprNetRec_org.coverage" NAME="LprNetRec_org Coverage Results" MODIFIED="1560777574777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/net" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_CTCRec2__1_.coverage" NAME="train_CTCRec2 Coverage Results" MODIFIED="1561113559312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$reTrainWithoueBN.coverage" NAME="reTrainWithoueBN Coverage Results" MODIFIED="1559622898088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_CTCRecognizer.coverage" NAME="train_CTCRecognizer Coverage Results" MODIFIED="1561101315956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$ShuffleNetV1.coverage" NAME="ShuffleNetV1 Coverage Results" MODIFIED="1560603929068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ShuffleNetV1/nets" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_landmark.coverage" NAME="train_landmark Coverage Results" MODIFIED="1560235602348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_modify_correct.coverage" NAME="train_modify_correct Coverage Results" MODIFIED="1560993110465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/myVerificationCodeRec" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_CTCRecognizer2.coverage" NAME="train_CTCRecognizer2 Coverage Results" MODIFIED="1561102957472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_stn__1_.coverage" NAME="train_stn (1) Coverage Results" MODIFIED="1560219474017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode" />
+    <SUITE FILE_PATH="coverage/DNNCode$evalPB_model__2_.coverage" NAME="evalPB_model (2) Coverage Results" MODIFIED="1559557507757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
+    <SUITE FILE_PATH="coverage/DNNCode$freeTypeGenerateTextImage.coverage" NAME="freeTypeGenerateTextImage Coverage Results" MODIFIED="1560738545737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/myVerificationCodeRec" />
+    <SUITE FILE_PATH="coverage/DNNCode$eval_ctc.coverage" NAME="eval_ctc Coverage Results" MODIFIED="1561026060271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$train2.coverage" NAME="train2 Coverage Results" MODIFIED="1559471769539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification" />
+    <SUITE FILE_PATH="coverage/DNNCode$evalPB_NoPlace.coverage" NAME="evalPB_NoPlace Coverage Results" MODIFIED="1559633216545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_CTCRec2.coverage" NAME="train_CTCRec2 Coverage Results" MODIFIED="1561108903708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$freezing_graph.coverage" NAME="freezing_graph Coverage Results" MODIFIED="1561116879897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$reTrainWithoutBN.coverage" NAME="reTrainWithoutBN Coverage Results" MODIFIED="1559557729436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_classifier_ResNetV1_Placehoder.coverage" NAME="train_classifier_ResNetV1_Placehoder Coverage Results" MODIFIED="1560220249750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_LprNetRec.coverage" NAME="train_LprNetRec Coverage Results" MODIFIED="1560568444947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$test_ResNetV1.coverage" NAME="test_ResNetV1 Coverage Results" MODIFIED="1560127724279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ResNetV1/nets" />
+    <SUITE FILE_PATH="coverage/DNNCode$get_filepath.coverage" NAME="get_filepath Coverage Results" MODIFIED="1561042720724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_CTCRec1.coverage" NAME="train_CTCRec1 Coverage Results" MODIFIED="1561117212836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_classifier_MobileNet_placeholder_specific.coverage" NAME="train_classifier_MobileNet_placeholder_specific Coverage Results" MODIFIED="1559709645645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_CTCRecognizer3_1.coverage" NAME="train_CTCRecognizer3_1 Coverage Results" MODIFIED="1561101061848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$training_regression.coverage" NAME="training_regression Coverage Results" MODIFIED="1560219985846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_classifier_MobileNet.coverage" NAME="train_classifier_MobileNet Coverage Results" MODIFIED="1559609655440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
+    <SUITE FILE_PATH="coverage/DNNCode$evalCKPT_model.coverage" NAME="evalCKPT_model Coverage Results" MODIFIED="1559632968066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/myDigitClassifier" />
+    <SUITE FILE_PATH="coverage/DNNCode$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1560744676331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/myVerificationCodeRec" />
+    <SUITE FILE_PATH="coverage/DNNCode$demoFreeType.coverage" NAME="demoFreeType Coverage Results" MODIFIED="1560670285321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/VerificationCodeRec" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_modify3.coverage" NAME="train_modify3 Coverage Results" MODIFIED="1561026470274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$evalPB1__1_.coverage" NAME="evalPB1 (1) Coverage Results" MODIFIED="1561117480600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec" />
+    <SUITE FILE_PATH="coverage/DNNCode$SIFT.coverage" NAME="SIFT Coverage Results" MODIFIED="1561034772794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DNNCode$my_train_LprNetRec.coverage" NAME="my_train_LprNetRec Coverage Results" MODIFIED="1560776526224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$train.coverage" NAME="train Coverage Results" MODIFIED="1560830111110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/VerificationCodeRec" />
+    <SUITE FILE_PATH="coverage/DNNCode$evalPB_NoPlace2.coverage" NAME="evalPB_NoPlace2 Coverage Results" MODIFIED="1559633233657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
+    <SUITE FILE_PATH="coverage/DNNCode$evalPB_Placeholder__1_.coverage" NAME="evalPB_Placeholder (1) Coverage Results" MODIFIED="1560658578541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
+    <SUITE FILE_PATH="coverage/DNNCode$stn_model.coverage" NAME="stn_model Coverage Results" MODIFIED="1560222345523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_landmark_saveFull.coverage" NAME="train_landmark_saveFull Coverage Results" MODIFIED="1560238704056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LprLocNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$LprNetRec33.coverage" NAME="LprNetRec33 Coverage Results" MODIFIED="1560995130078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/net" />
+    <SUITE FILE_PATH="coverage/DNNCode$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1560680546805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/VerificationCodeRec" />
+    <SUITE FILE_PATH="coverage/DNNCode$LprNetRec.coverage" NAME="LprNetRec Coverage Results" MODIFIED="1560777284654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/net" />
+    <SUITE FILE_PATH="coverage/DNNCode$get_trans_image__1_.coverage" NAME="get_trans_image (1) Coverage Results" MODIFIED="1560164480786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner" />
+    <SUITE FILE_PATH="coverage/DNNCode$eval_CTC_no_pharse.coverage" NAME="eval_CTC_no_pharse Coverage Results" MODIFIED="1561103449332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$evalCKPT_model2_M2.coverage" NAME="evalCKPT_model2_M2 Coverage Results" MODIFIED="1559626294219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
+    <SUITE FILE_PATH="coverage/DNNCode$evalPB1.coverage" NAME="evalPB1 Coverage Results" MODIFIED="1561117415711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
     <SUITE FILE_PATH="coverage/DNNCode$test_landmark_full.coverage" NAME="test_landmark_full Coverage Results" MODIFIED="1560242746737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LprLocNet" />
     <SUITE FILE_PATH="coverage/DNNCode$test_landmark_onlyWeights.coverage" NAME="test_landmark_onlyWeights Coverage Results" MODIFIED="1560242729730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LprLocNet" />
     <SUITE FILE_PATH="coverage/DNNCode$train_classifier_MobileNet_m2.coverage" NAME="train_classifier_MobileNet_m2 Coverage Results" MODIFIED="1559624407384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$get_trans_image.coverage" NAME="get_trans_image Coverage Results" MODIFIED="1560150420881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/keras" />
     <SUITE FILE_PATH="coverage/DNNCode$stn_model__1_.coverage" NAME="stn_model (1) Coverage Results" MODIFIED="1560216766202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode" />
+    <SUITE FILE_PATH="coverage/DNNCode$eval_CTC_no_pharse_pb_openvino.coverage" NAME="eval_CTC_no_pharse_pb_openvino Coverage Results" MODIFIED="1561104614660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
     <SUITE FILE_PATH="coverage/DNNCode$evalPB.coverage" NAME="evalPB Coverage Results" MODIFIED="1560241996059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LprLocNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_modify2__1_.coverage" NAME="train_modify2 (1) Coverage Results" MODIFIED="1560992402426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/myVerificationCodeRec" />
     <SUITE FILE_PATH="coverage/DNNCode$train_classification.coverage" NAME="train_classification Coverage Results" MODIFIED="1559550928334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification" />
-    <SUITE FILE_PATH="coverage/DNNCode$reTrainWithoueBN.coverage" NAME="reTrainWithoueBN Coverage Results" MODIFIED="1559622898088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
-    <SUITE FILE_PATH="coverage/DNNCode$ShuffleNetV1.coverage" NAME="ShuffleNetV1 Coverage Results" MODIFIED="1560603929068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ShuffleNetV1/nets" />
-    <SUITE FILE_PATH="coverage/DNNCode$train_landmark.coverage" NAME="train_landmark Coverage Results" MODIFIED="1560235602348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode" />
+    <SUITE FILE_PATH="coverage/DNNCode$my_train_LprNetRec2.coverage" NAME="my_train_LprNetRec2 Coverage Results" MODIFIED="1560825057759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_modify__1_.coverage" NAME="train_modify (1) Coverage Results" MODIFIED="1560780188319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$eval_freeze_openvino.coverage" NAME="eval_freeze_openvino Coverage Results" MODIFIED="1561116916598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
     <SUITE FILE_PATH="coverage/DNNCode$evalCKPT_model2.coverage" NAME="evalCKPT_model2 Coverage Results" MODIFIED="1559625737546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$rename_tag_single.coverage" NAME="rename_tag_single Coverage Results" MODIFIED="1560307329801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/myFile/myPyFiles/check" />
-    <SUITE FILE_PATH="coverage/DNNCode$train_stn__1_.coverage" NAME="train_stn (1) Coverage Results" MODIFIED="1560219474017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode" />
     <SUITE FILE_PATH="coverage/DNNCode$myCharClassifier.coverage" NAME="myCharClassifier Coverage Results" MODIFIED="1559524663637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/nets" />
-    <SUITE FILE_PATH="coverage/DNNCode$evalPB_model__2_.coverage" NAME="evalPB_model (2) Coverage Results" MODIFIED="1559557507757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$test_landmark.coverage" NAME="test_landmark Coverage Results" MODIFIED="1560237195128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode" />
-    <SUITE FILE_PATH="coverage/DNNCode$train2.coverage" NAME="train2 Coverage Results" MODIFIED="1559471769539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification" />
-    <SUITE FILE_PATH="coverage/DNNCode$evalPB_NoPlace.coverage" NAME="evalPB_NoPlace Coverage Results" MODIFIED="1559633216545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_CTCRecognizer3.coverage" NAME="train_CTCRecognizer3 Coverage Results" MODIFIED="1561112650066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$compare.coverage" NAME="compare Coverage Results" MODIFIED="1561079605419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DNNCode$eval_CTC_no_pharse_pb.coverage" NAME="eval_CTC_no_pharse_pb Coverage Results" MODIFIED="1561103457549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
     <SUITE FILE_PATH="coverage/DNNCode$test_landmark__1_.coverage" NAME="test_landmark (1) Coverage Results" MODIFIED="1560237560100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LprLocNet" />
-    <SUITE FILE_PATH="coverage/DNNCode$reTrainWithoutBN.coverage" NAME="reTrainWithoutBN Coverage Results" MODIFIED="1559557729436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
-    <SUITE FILE_PATH="coverage/DNNCode$train_classifier_ResNetV1_Placehoder.coverage" NAME="train_classifier_ResNetV1_Placehoder Coverage Results" MODIFIED="1560220249750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark" />
     <SUITE FILE_PATH="coverage/DNNCode$train_classifier_ResNetV1_Placehoder2.coverage" NAME="train_classifier_ResNetV1_Placehoder2 Coverage Results" MODIFIED="1560134106695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ResNetV1" />
-    <SUITE FILE_PATH="coverage/DNNCode$train_LprNetRec.coverage" NAME="train_LprNetRec Coverage Results" MODIFIED="1560568444947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
-    <SUITE FILE_PATH="coverage/DNNCode$demo.coverage" NAME="demo Coverage Results" MODIFIED="1560671268227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/VerificationCodeRec" />
-    <SUITE FILE_PATH="coverage/DNNCode$test_ResNetV1.coverage" NAME="test_ResNetV1 Coverage Results" MODIFIED="1560127724279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ResNetV1/nets" />
+    <SUITE FILE_PATH="coverage/DNNCode$demo.coverage" NAME="demo Coverage Results" MODIFIED="1561100586923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
     <SUITE FILE_PATH="coverage/DNNCode$ResNet_Utils.coverage" NAME="ResNet_Utils Coverage Results" MODIFIED="1560141335514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ResNetV1/nets" />
     <SUITE FILE_PATH="coverage/DNNCode$bn_train.coverage" NAME="bn_train Coverage Results" MODIFIED="1559565075391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/batch_mnist" />
-    <SUITE FILE_PATH="coverage/DNNCode$test_landmark_full_evalPB.coverage" NAME="test_landmark_full_evalPB Coverage Results" MODIFIED="1560345813122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LprLocNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$test_landmark_full_evalPB.coverage" NAME="test_landmark_full_evalPB Coverage Results" MODIFIED="1561031255923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LprLocNet" />
     <SUITE FILE_PATH="coverage/DNNCode$train_classifier_ResNetV1_Placehoder__1_.coverage" NAME="train_classifier_ResNetV1_Placehoder (1) Coverage Results" MODIFIED="1560220600517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ResNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$CKPT2PB_NoBN.coverage" NAME="CKPT2PB_NoBN Coverage Results" MODIFIED="1559621710989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
-    <SUITE FILE_PATH="coverage/DNNCode$train_classifier_MobileNet_placeholder_specific.coverage" NAME="train_classifier_MobileNet_placeholder_specific Coverage Results" MODIFIED="1559709645645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$train_epoch.coverage" NAME="train_epoch Coverage Results" MODIFIED="1559474907945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification" />
-    <SUITE FILE_PATH="coverage/DNNCode$training_regression.coverage" NAME="training_regression Coverage Results" MODIFIED="1560219985846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode" />
-    <SUITE FILE_PATH="coverage/DNNCode$train_classifier_MobileNet.coverage" NAME="train_classifier_MobileNet Coverage Results" MODIFIED="1559609655440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
-    <SUITE FILE_PATH="coverage/DNNCode$evalPB_Placeholder.coverage" NAME="evalPB_Placeholder Coverage Results" MODIFIED="1560673302488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ShuffleNetV1" />
-    <SUITE FILE_PATH="coverage/DNNCode$evalCKPT_model.coverage" NAME="evalCKPT_model Coverage Results" MODIFIED="1559632968066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/myDigitClassifier" />
-    <SUITE FILE_PATH="coverage/DNNCode$demoFreeType.coverage" NAME="demoFreeType Coverage Results" MODIFIED="1560670285321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/VerificationCodeRec" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_modify.coverage" NAME="train_modify Coverage Results" MODIFIED="1560957807279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/myVerificationCodeRec" />
+    <SUITE FILE_PATH="coverage/DNNCode$evalPB_Placeholder.coverage" NAME="evalPB_Placeholder Coverage Results" MODIFIED="1560748219695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ShuffleNetV1" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_CTCRecognizer222.coverage" NAME="train_CTCRecognizer222 Coverage Results" MODIFIED="1561085866934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
     <SUITE FILE_PATH="coverage/DNNCode$train_classifier_shuffleNetV1_Placehoder.coverage" NAME="train_classifier_shuffleNetV1_Placehoder Coverage Results" MODIFIED="1560651919619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ShuffleNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$evalPB_model.coverage" NAME="evalPB_model Coverage Results" MODIFIED="1559710306853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/myDigitClassifier" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_CTCRecognizer3__1_.coverage" NAME="train_CTCRecognizer3 (1) Coverage Results" MODIFIED="1561113372149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_CTCRecognizer22.coverage" NAME="train_CTCRecognizer22 Coverage Results" MODIFIED="1561085043062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$eval_ctc2.coverage" NAME="eval_ctc2 Coverage Results" MODIFIED="1561026207161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
     <SUITE FILE_PATH="coverage/DNNCode$bn_test.coverage" NAME="bn_test Coverage Results" MODIFIED="1559565535067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/batch_mnist" />
     <SUITE FILE_PATH="coverage/DNNCode$evalPB_model__1_.coverage" NAME="evalPB_model (1) Coverage Results" MODIFIED="1559627678734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$train_stn.coverage" NAME="train_stn Coverage Results" MODIFIED="1560221877772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode" />
     <SUITE FILE_PATH="coverage/DNNCode$MobileNetForDigit.coverage" NAME="MobileNetForDigit Coverage Results" MODIFIED="1559549344106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/nets" />
     <SUITE FILE_PATH="coverage/DNNCode$keras2tensorflow.coverage" NAME="keras2tensorflow Coverage Results" MODIFIED="1560241873501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
-    <SUITE FILE_PATH="coverage/DNNCode$train.coverage" NAME="train Coverage Results" MODIFIED="1560516192146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
-    <SUITE FILE_PATH="coverage/DNNCode$evalPB_NoPlace2.coverage" NAME="evalPB_NoPlace2 Coverage Results" MODIFIED="1559633233657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$train_classifier_MobileNet_Placehoder.coverage" NAME="train_classifier_MobileNet_Placehoder Coverage Results" MODIFIED="1559743181548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$ShuffleNetV1ForDigit.coverage" NAME="ShuffleNetV1ForDigit Coverage Results" MODIFIED="1560651651558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ShuffleNetV1/nets" />
-    <SUITE FILE_PATH="coverage/DNNCode$evalPB_Placeholder__1_.coverage" NAME="evalPB_Placeholder (1) Coverage Results" MODIFIED="1560658578541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
-    <SUITE FILE_PATH="coverage/DNNCode$stn_model.coverage" NAME="stn_model Coverage Results" MODIFIED="1560222345523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode" />
-    <SUITE FILE_PATH="coverage/DNNCode$train_landmark_saveFull.coverage" NAME="train_landmark_saveFull Coverage Results" MODIFIED="1560238704056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LprLocNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_modify2.coverage" NAME="train_modify2 Coverage Results" MODIFIED="1561007994199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_CTCRecognizer_2ways.coverage" NAME="train_CTCRecognizer_2ways Coverage Results" MODIFIED="1561104391228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -109,44 +152,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV1/nets/ShuffleNetV1ForDigit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2068">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classification/demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV1/evalPB_Placeholder.py">
+        <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/evalPB1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="115">
+              <caret line="67" column="14" lean-forward="true" selection-start-line="66" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV1/train_classifier_shuffleNetV1_Placehoder.py">
+        <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRec2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+            <state relative-caret-position="356">
+              <caret line="230" selection-start-line="230" selection-end-line="230" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRec1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="183" column="46" selection-start-line="183" selection-start-column="46" selection-end-line="183" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/freezing_graph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -165,40 +202,41 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>is_training</find>
-      <find>get_variable_with_l2_loss</find>
-      <find>depthwise_conv2d</find>
-      <find>depthwise_conv</find>
-      <find>VAILD</find>
-      <find>accuary_</find>
-      <find>group1</find>
-      <find>bottleneck_output_channels1:</find>
-      <find>group_</find>
-      <find>bottleneck_output_channels2:</find>
-      <find>inf</find>
-      <find>print</find>
-      <find>strides</find>
-      <find>input_width</find>
-      <find>_depthwise</find>
-      <find>input_groups_channel</find>
-      <find>input_channels:</find>
-      <find>bottleneck_channels</find>
-      <find>&quot;name</find>
-      <find>group2</find>
-      <find>0.0</find>
-      <find>&quot;model</find>
-      <find>is_training_placeholder</find>
-      <find>infer</find>
-      <find>grouped_conv</find>
-      <find>batchnorm</find>
-      <find>used_time</find>
-      <find>image</find>
+      <find>seq_length</find>
+      <find>get_m</find>
+      <find>py_func</find>
+      <find>processed</find>
+      <find>out_sift_1</find>
+      <find>sift</find>
+      <find>process_image</find>
+      <find>global_step</find>
+      <find>tf.concat</find>
+      <find>edit_distance_mean</find>
+      <find>tf.split</find>
+      <find>tf_</find>
+      <find>threads</find>
+      <find>train_image_batch</find>
+      <find>config</find>
+      <find>res</find>
+      <find>checkpoint</find>
+      <find>prob</find>
+      <find>sparse_groundtrouth</find>
+      <find>restore</find>
+      <find>sparse_to_dense</find>
+      <find>seq_len_placeholder</find>
+      <find>fill</find>
       <find>tran</find>
-      <find>free_type_get_next_batch</find>
+      <find>get_accuarcy2</find>
+      <find>decode_sparse_tensor</find>
+      <find>get_sparse_labels</find>
+      <find>-------&gt;</find>
+      <find>model_path</find>
+      <find>output_dir</find>
     </findStrings>
     <replaceStrings>
       <replace>corners</replace>
       <replace />
+      <replace>free_type_image_lstm_model</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -207,65 +245,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Classification/ResNetV1/evalCKPT_Placeholder.py" />
-        <option value="$PROJECT_DIR$/Classification/MobileNetV1/nets/MobileNetV1.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/get_trans_image.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/keras/train_stn.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/keras/stn_model.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/keras/stn_model.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/training_regression.py" />
-        <option value="$PROJECT_DIR$/landmark/train_classifier_ResNetV1_Placehoder.py" />
-        <option value="$PROJECT_DIR$/Classification/MobileNetV1/train_classifier_MobileNet_Placehoder.py" />
-        <option value="$PROJECT_DIR$/Classification/myDigitClassifier/train_myClassifier.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode/stn_model.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode/train_stn.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/net/lprNet.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/nets/LPRNet.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/nets/LprLocNet.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/train_landmark.py" />
-        <option value="$PROJECT_DIR$/tools/dataAugmentor.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/test_landmark.py" />
-        <option value="$PROJECT_DIR$/tools/keras2tensorflowPB.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_landmark.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LprLocNet/train_landmark.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_landmark_onlyWeights.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LprLocNet/train_landmark_saveFull.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_landmark_full.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LprLocNet/evalPB.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_landmark_full_evalPB.py" />
-        <option value="$PROJECT_DIR$/tools/keras2tensorflow.py" />
-        <option value="$PROJECT_DIR$/LPRNet_Pytorch/__MACOSX/LPRNet_Pytorch/model/._LPRNet.py" />
-        <option value="$PROJECT_DIR$/LPRNet_Pytorch/LPRNet_Pytorch/test_LPRNet.py" />
-        <option value="D:/myFile/myPyFiles/check/rename_tag_single.py" />
-        <option value="$PROJECT_DIR$/tools/split_train_test.py" />
-        <option value="$PROJECT_DIR$/tools/single_split_train_test.py" />
-        <option value="$PROJECT_DIR$/Classification/MobileNetV1/train_classifier_MobileNet_NoPlace.py" />
-        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train.py" />
-        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/demo.py" />
-        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_LprNetRec.py" />
-        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/net/LprNetRec.py" />
-        <option value="$PROJECT_DIR$/shuffleNet.py" />
-        <option value="$PROJECT_DIR$/Classification/ShuffleNetV1/myCharClassifier.py" />
-        <option value="$PROJECT_DIR$/Classification/ShuffleNetV1/nets/ShuffleNetV1.py" />
-        <option value="$PROJECT_DIR$/Classification/ShuffleNetV1/nets/ShuffleNetV1ForDigit.py.py" />
-        <option value="$PROJECT_DIR$/Classification/ResNetV1/train_classifier_ResNetV1_Placehoder.py" />
-        <option value="$PROJECT_DIR$/Classification/ShuffleNetV1/train_classifier_ResNetV1_Placehoder.py" />
-        <option value="$PROJECT_DIR$/Classification/MobileNetV1/evalPB_Placeholder.py" />
-        <option value="$PROJECT_DIR$/Classification/ShuffleNetV1/nets/ShuffleNetV1ForDigit.py" />
-        <option value="$PROJECT_DIR$/Classification/demo.py" />
-        <option value="E:/qzq/ShuffleNetV1ForDigit.py" />
-        <option value="$PROJECT_DIR$/textRecognition/VerificationCodeRec/demoFreeType.py" />
         <option value="$PROJECT_DIR$/textRecognition/VerificationCodeRec/demo.py" />
-        <option value="$PROJECT_DIR$/Classification/ShuffleNetV1/train_classifier_shuffleNetV1_Placehoder.py" />
+        <option value="$PROJECT_DIR$/textRecognition/VerificationCodeRec/freeTypeGenerateTextImage.py" />
+        <option value="$PROJECT_DIR$/textRecognition/VerificationCodeRec/test.py" />
+        <option value="$PROJECT_DIR$/textRecognition/myVerificationCodeRec/demo.py" />
+        <option value="$PROJECT_DIR$/textRecognition/myVerificationCodeRec/test.py" />
         <option value="$PROJECT_DIR$/Classification/ShuffleNetV1/evalPB_Placeholder.py" />
+        <option value="$PROJECT_DIR$/textRecognition/myVerificationCodeRec/freeTypeGenerateTextImage.py" />
+        <option value="$PROJECT_DIR$/textRecognition/myVerificationCodeRec/train.py" />
+        <option value="$PROJECT_DIR$/textRecognition/myVerificationCodeRec/eval_ctc.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/my_train_LprNetRec.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/net/LprNetRec_org.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/net/LprNetRec.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_modify.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/new_train.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_LprNetRec.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/my_train_LprNetRec2.py" />
+        <option value="$PROJECT_DIR$/textRecognition/myVerificationCodeRec/train_modify.py" />
+        <option value="$PROJECT_DIR$/textRecognition/myVerificationCodeRec/train_modify2.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/models/checkpoint" />
+        <option value="$PROJECT_DIR$/textRecognition/myVerificationCodeRec/train_modify_correct.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/net/LprNetRec33.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_modify2.py" />
+        <option value="$PROJECT_DIR$/Classification/ShuffleNetV1/train_classifier_shuffleNetV1_Placehoder.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/eval_ctc.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/eval_ctc2.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_modify3.py" />
+        <option value="$PROJECT_DIR$/textRecognition/VerificationCodeRec/train.py" />
+        <option value="$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_landmark_full_evalPB.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/get_filepath.py" />
+        <option value="$PROJECT_DIR$/SIFT.py" />
+        <option value="$PROJECT_DIR$/compare.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRecognizer22.py" />
+        <option value="$PROJECT_DIR$/tools/freezing_graph.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/demo.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRecognizer222.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRecognizer.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRecognizer2.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/eval_CTC_no_pharse_pb.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/eval_CTC_no_pharse.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/eval_CTC_pharse.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/net/CTCRecognizer.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRecognizer_2ways.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/eval_CTC_no_pharse_pb_openvino.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/evalCKPT1.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRecognizer3.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/models2/ckpt/checkpoint" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRec2.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRec1.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/freezing_graph.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/eval_freeze_openvino.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/evalPB1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="417" />
-    <option name="y" value="68" />
-    <option name="width" value="1703" />
-    <option name="height" value="1018" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="57" />
+    <option name="y" value="87" />
+    <option name="width" value="1875" />
+    <option name="height" value="895" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -290,12 +328,18 @@
             <path>
               <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="ShuffleNetV1" type="462c0819:PsiDirectoryNode" />
+              <item name="textRecognition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
+              <item name="textRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="CNN_CTCLoss_LprNet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,19 +356,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ShuffleNetV1\nets" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ShuffleNetV1\models\openvino" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ShuffleNetV1\models\pb" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ShuffleNetV1\models\ckpt" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ShuffleNetV1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\WorkSpace\myGithub\DNNCode\textRecognition\CNN_CTCLoss_LprNet" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ShuffleNetV1\nets" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\landmark\plateCorner\LprLocNet" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\landmark\plateCorner\LprLocNet\nets" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\landmark\plateCorner\LPRLocNet\myCode\models" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\landmark\plateCorner\LPRLocNet" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\WorkSpace\myGithub\DNNCode\textRecognition\CNN_CTCLoss_LprNet\test_images" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\textRecognition\CNN_CTCLoss_LprNet\freezeModel" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\textRecognition\CNN_CTCLoss_LprNet" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\textRecognition\CNN_CTCLoss_LprNet\models" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\textRecognition\myVerificationCodeRec" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -339,8 +383,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.evalPB_Placeholder">
-    <configuration name="demo (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.evalPB1">
+    <configuration name="evalPB1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNNCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -348,12 +392,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classification" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classification/demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/evalPB1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -362,7 +406,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="evalPB1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNNCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -370,12 +414,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textRecognition/VerificationCodeRec" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textRecognition/VerificationCodeRec/demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/evalPB1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -384,7 +428,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demoFreeType" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="eval_freeze_openvino" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNNCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -392,12 +436,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textRecognition/VerificationCodeRec" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="P:\WorkSpace\myGithub\DNNCode\textRecognition\VerificationCodeRec\freeTypeGenerateTextImage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/eval_freeze_openvino.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -406,7 +450,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="evalPB_Placeholder (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="freezing_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNNCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -414,12 +458,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classification/MobileNetV1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classification/MobileNetV1/evalPB_Placeholder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/freezing_graph.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -428,7 +472,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="evalPB_Placeholder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="train_CTCRec1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNNCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -436,12 +480,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classification/ShuffleNetV1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classification/ShuffleNetV1/evalPB_Placeholder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRec1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -450,13 +494,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="train_CTCRec2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DNNCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="P:\WorkSpace\myGithub\DNNCode\textRecognition\CNN_CTCLoss_LprNet\train_CTCRec1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.train_CTCRec1" />
+      <item itemvalue="Python.freezing_graph" />
+      <item itemvalue="Python.eval_freeze_openvino" />
+      <item itemvalue="Python.evalPB1" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.evalPB_Placeholder" />
-        <item itemvalue="Python.demo" />
-        <item itemvalue="Python.demoFreeType" />
-        <item itemvalue="Python.demo (1)" />
-        <item itemvalue="Python.evalPB_Placeholder (1)" />
+        <item itemvalue="Python.evalPB1" />
+        <item itemvalue="Python.evalPB1" />
+        <item itemvalue="Python.train_CTCRec1" />
+        <item itemvalue="Python.eval_freeze_openvino" />
+        <item itemvalue="Python.freezing_graph" />
       </list>
     </recent_temporary>
   </component>
@@ -489,7 +561,8 @@
       <workItem from="1560559670493" duration="2355000" />
       <workItem from="1560562561150" duration="27327000" />
       <workItem from="1560648717339" duration="7502000" />
-      <workItem from="1560659508369" duration="8078000" />
+      <workItem from="1560659508369" duration="63233000" />
+      <workItem from="1560819064064" duration="92822000" />
     </task>
     <task id="LOCAL-00001" summary="specific label dict and add if __name__ == &quot;__main__&quot;">
       <created>1559710760596</created>
@@ -547,11 +620,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560345877322</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ShuffleNetV1">
+      <created>1560674477993</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560674477993</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234462000" />
+    <option name="totallyTimeSpent" value="382439000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -563,16 +643,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="525" y="59" width="1362" height="814" extended-state="0" />
+    <frame x="5" y="107" width="1500" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24386503" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23855756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35337242" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3963964" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31678084" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3937677" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32886904" />
@@ -580,7 +660,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.22205663" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5495751" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -602,365 +682,354 @@
     <MESSAGE value="landmark-plate corner detection" />
     <MESSAGE value="convert keras(h5) to tensorflow(pb) and eval landmark using pb model" />
     <MESSAGE value="update split py" />
-    <option name="LAST_COMMIT_MESSAGE" value="update split py" />
+    <MESSAGE value="ShuffleNetV1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ShuffleNetV1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tools/keras2tensorflowPB.py" />
-    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/myCode/test_landmark.py" />
-    <entry file="file://$PROJECT_DIR$/tools/dataAugmentor.py">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/python/ops/ctc_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="-625">
+          <caret line="234" column="4" selection-start-line="234" selection-start-column="4" selection-end-line="234" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/myVerificationCodeRec/freeTypeGenerateTextImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1099">
+          <caret line="171" column="7" selection-start-line="171" selection-start-column="7" selection-end-line="171" selection-end-column="7" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/keras/engine/training.py">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/python/framework/ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1342">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        <state relative-caret-position="140">
+          <caret line="995" column="4" selection-start-line="995" selection-start-column="4" selection-end-line="995" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/myDigitClassifier/evalPB_model.py">
+    <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV1/evalPB_Placeholder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="101" column="71" selection-start-line="101" selection-start-column="57" selection-end-line="101" selection-end-column="71" />
+        <state relative-caret-position="132">
+          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/python/framework/graph_util.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/python/client/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="737" selection-start-line="737" selection-end-line="737" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LprLocNet/nets/lpr_locNet.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/keras2tensorflow.py">
+    <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV1/train_classifier_shuffleNetV1_Placehoder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_landmark_onlyWeights.py">
+    <entry file="file://$PROJECT_DIR$/Classification/myDigitClassifier/evalCKPT_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LPRNet_Pytorch/__MACOSX/LPRNet_Pytorch/model/._LPRNet.py" />
-    <entry file="file://$PROJECT_DIR$/LPRNet_Pytorch/LPRNet_Pytorch/train_LPRNet.py" />
-    <entry file="file://$PROJECT_DIR$/LPRNet_Pytorch/LPRNet_Pytorch/test_LPRNet.py" />
-    <entry file="file://D:/myFile/myPyFiles/check/rename_tag_single.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/split_train_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/single_split_train_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_landmark_full_evalPB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
-          <folding>
-            <element signature="e#48#66#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="110">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classification/MobileNetV1/train_classifier_MobileNet_NoPlace.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="178" column="75" selection-start-line="178" selection-start-column="65" selection-end-line="178" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LprLocNet/nets/LprLocNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="38" lean-forward="true" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/python/ops/random_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/python/ops/array_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="1516" column="4" selection-start-line="1516" selection-start-column="4" selection-end-line="1516" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LprLocNet/train_landmark_saveFull.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LprLocNet/train_landmark_saveWeights.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/python/layers/normalization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="157" column="4" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <element signature="e#16#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/python/ops/ctc_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="234" column="4" selection-start-line="234" selection-start-column="4" selection-end-line="234" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/net/LprNetRec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/python/ops/gen_nn_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="930" column="22" selection-start-line="930" selection-start-column="22" selection-end-line="930" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shuffleNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3753">
-          <caret line="57" column="41" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="41" />
-          <folding>
-            <element signature="e#1137#1175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_LprNetRec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="53" />
+        <state>
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/python/ops/nn_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="391" column="4" selection-start-line="391" selection-start-column="4" selection-end-line="391" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/MobileNetV1/nets/MobileNetV1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-          <folding>
-            <element signature="e#48#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV1/nets/ShuffleNetV1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="192" lean-forward="true" selection-start-line="192" selection-end-line="192" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="126" column="30" lean-forward="true" selection-start-line="122" selection-start-column="7" selection-end-line="126" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/myDigitClassifier/train_myClassifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="141" column="27" selection-start-line="141" selection-start-column="27" selection-end-line="141" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/myDigitClassifier/nets/myCharClassifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="39" column="58" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/MobileNetV1/evalPB_Placeholder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="125" column="79" lean-forward="true" selection-start-line="125" selection-start-column="79" selection-end-line="125" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/qzq/ShuffleNetV1ForDigit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/VerificationCodeRec/free_type_image/test_color_image_reduce_gaussian_noise.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/VerificationCodeRec/free_type_image/test_color_image_salt_noise.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/VerificationCodeRec/free_type_image/test_color_image_reduce_salt_noise.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/VerificationCodeRec/free_type_image/test_color_image_no_noise.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/VerificationCodeRec/free_type_image/test_color_image_gaussian_noise.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/VerificationCodeRec/freeTypeGenerateTextImage.py">
+    <entry file="file://$PROJECT_DIR$/Classification/MobileNetV1/train_classifier_MobileNet_Placehoder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="308" column="20" selection-start-line="308" selection-start-column="20" selection-end-line="308" selection-end-column="20" />
+          <caret line="166" column="71" lean-forward="true" selection-start-line="165" selection-start-column="8" selection-end-line="166" selection-end-column="71" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/VerificationCodeRec/demo.py">
+    <entry file="file://$PROJECT_DIR$/Classification/MobileNetV1/evalCKPT_NoPlace.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="315" column="41" selection-start-line="315" selection-start-column="41" selection-end-line="315" selection-end-column="41" />
+        <state relative-caret-position="550">
+          <caret line="121" column="59" selection-start-line="121" selection-start-column="45" selection-end-line="121" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_modify2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="136" column="25" selection-start-line="199" selection-start-column="46" selection-end-line="199" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/VerificationCodeRec/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="252" column="14" selection-start-line="252" selection-start-column="9" selection-end-line="252" selection-end-column="14" />
           <folding>
             <element signature="e#29#88#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/train_classifier_ResNetV1_Placehoder.py">
+    <entry file="file://$PROJECT_DIR$/Classification/MobileNetV1/evalCKPT_Placeholder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3630">
-          <caret line="173" column="26" selection-start-line="173" selection-start-column="26" selection-end-line="173" selection-end-column="26" />
+        <state relative-caret-position="160">
+          <caret line="92" column="18" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/MobileNetV1/evalPB_Placeholder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="96" column="51" lean-forward="true" selection-start-line="89" selection-start-column="4" selection-end-line="96" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/VerificationCodeRec/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1351">
+          <caret line="188" column="27" selection-start-line="188" selection-start-column="27" selection-end-line="188" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp.pgm">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/numpy/lib/npyio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3761">
+          <caret line="772" column="4" selection-start-line="772" selection-start-column="4" selection-end-line="772" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_sift_2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_landmark_full_evalPB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#48#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_landmark_full.py">
+    <entry file="file://$PROJECT_DIR$/out_sift_1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/python/ops/io_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-92">
+          <caret line="143" column="6" selection-start-line="143" selection-start-column="6" selection-end-line="143" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV1/train_classifier_shuffleNetV1_Placehoder.py">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/python/training/input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        <state relative-caret-position="162">
+          <caret line="1247" column="4" selection-start-line="1247" selection-start-column="4" selection-end-line="1247" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIFT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="14" column="13" selection-end-line="134" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/PIL/ImageChops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV1/nets/ShuffleNetV1ForDigit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2068">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="152">
+          <caret line="77" column="60" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="60" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/demo.py">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/python/ops/array_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="170">
+          <caret line="1340" column="4" selection-start-line="1340" selection-start-column="4" selection-end-line="1340" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/demo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/demo0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/demo1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/demo2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/demo4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/demo3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/demoo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRecognizer22.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="194" column="34" lean-forward="true" selection-start-line="194" selection-start-column="34" selection-end-line="194" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRecognizer222.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="247" column="71" selection-start-line="247" selection-start-column="71" selection-end-line="247" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRecognizer3_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4598">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRecognizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5126">
+          <caret line="233" column="19" lean-forward="true" selection-start-line="233" selection-start-column="19" selection-end-line="233" selection-end-column="19" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV1/evalPB_Placeholder.py">
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/eval_CTC_pharse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="-2002">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/evalCKPT1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/net/CTCRecognizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRec_2ways.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="241" column="34" lean-forward="true" selection-start-line="241" selection-start-column="34" selection-end-line="241" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/get_filepath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/models2/ckpt/checkpoint">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRec2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="230" selection-start-line="230" selection-end-line="230" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/train_CTCRec1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="183" column="46" selection-start-line="183" selection-start-column="46" selection-end-line="183" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/freezeModel/CTC_ISR_frezee.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/eval_freeze_openvino.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/freezing_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/evalPB1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="67" column="14" lean-forward="true" selection-start-line="66" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
         </state>
       </provider>
     </entry>
