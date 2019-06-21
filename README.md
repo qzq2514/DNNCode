@@ -1,0 +1,28 @@
+# DNN learning
+
+DNN Code including classification,landmark,text recognition...  
+Training and testing script of each DNN project is included.
+
+## Classification:
+Classification models are trained and evaluated on the task of character classification including 36 characters(10 digits and 26 uppercase letter).  
+Readers can fine-tuning the network architecture for your own tasks.
+
+|   Classifier   | Accuarcy (%)|  Speed (ms)|
+|:------------:|:-------------------:|:-------------------:|
+| my classification    |        99.6        |  1.62|
+|    MobileNetV1   |        99.3        |  0.63|
+|   ResNetV1    |     96.4    |3.52|
+|  ShuffleNetV1  |     92.7    |    1.52|
+
+
+
+## landmark:
+
+#### License plate corner detection
+![](https://github.com/qzq2514/ImageForGithubMakdown/blob/master/DNNCode/landmark1.PNG)
+![](https://github.com/qzq2514/ImageForGithubMakdown/blob/master/DNNCode/landmark2.PNG) 
+![](https://github.com/qzq2514/ImageForGithubMakdown/blob/master/DNNCode/landmark3.PNG)
+![](https://github.com/qzq2514/ImageForGithubMakdown/blob/master/DNNCode/landmark4.PNG) 
+
+
+
