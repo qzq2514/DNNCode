@@ -12,8 +12,8 @@ num_hidden = 64
 batch_size = 1
 
 char_set = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9","#"]
-# eval_dir = "D:/forTensorflow/LprNet_CTCLoss_ISR/test"
-eval_dir="test_images"
+eval_dir = "D:/forTensorflow/LprNet_CTCLoss_ISR/train"
+# eval_dir="test_images"
 model_path = "models1/pb/CTC_ISR1-20200.pb"
 num_classes = 12
 
@@ -64,8 +64,8 @@ def train():
             correct_num = correct_num + 1 if is_correct else correct_num
 
             print("accuarcy:{}".format(correct_num / (total_num + 1)))
-            cv2.imshow("org_color_image", org_color_image)
-            cv2.waitKey(0)
+            # cv2.imshow("org_color_image", org_color_image)
+            # cv2.waitKey(0)
 
 
 if __name__ == "__main__":
