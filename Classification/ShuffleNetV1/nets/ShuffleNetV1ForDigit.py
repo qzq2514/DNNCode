@@ -195,6 +195,8 @@ class ShuffleNetV1ForDigit(object):
                                            strides=[1, 1], is_use_group_shuffle=True, residual_type="add")
 
         # stage4
+        # 虽说在residual_type="concat"时也可以使用strides=[1, 1],但是出于尊重原论文的想法,
+        # stage4时,最好使用strides=[2, 2]
         net = self.shuffleNet_unit("stage4_out", net, unit_output_channels=960,
                                    strides=[1, 1], is_use_group_shuffle=True)
         for i in range(3):
