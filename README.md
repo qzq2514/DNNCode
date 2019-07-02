@@ -7,7 +7,8 @@ Training and testing script of each DNN project is included.
 Classification models are trained and evaluated on the task of character classification including 36 characters(10 digits and 26 uppercase letter).  
 input: 28 x 28 x 3  
 environment: openvino 2019  、CORE i7、GTX 1060
-             
+
+Names of Classfier are just the general type of CNN net,readers can go into codes to find specific type.
 Readers can fine-tuning the network architecture for your own tasks.
 
 |   Classifier   | Accuarcy (%)|  Speed (ms)|
@@ -17,7 +18,7 @@ Readers can fine-tuning the network architecture for your own tasks.
 |    MobileNetV2   |        99.7        |  1.12|
 |   ResNetV1    |     96.4    |3.52|
 |  ShuffleNetV1  |     92.7    |    1.52|
-|  ShuffleNetV1  |     97.7    |    1.75|
+|  ShuffleNetV2  |     97.7    |    1.75|
 
 
 

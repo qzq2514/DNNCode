@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="762e0dfb-3742-4118-8df8-63a847a61910" name="Default Changelist" comment="MobileNetV2">
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV2/evalPB_Placeholder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV2/label_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV2/models/ckpt/ShuffleNetV2_M6.ckpt-11000.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV2/models/ckpt/ShuffleNetV2_M6.ckpt-11000.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV2/models/ckpt/ShuffleNetV2_M6.ckpt-11000.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV2/models/openvino/ShuffleNetV2_M6-11000.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV2/models/openvino/ShuffleNetV2_M6-11000.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV2/models/pb/ShuffleNetV2_M6-11000.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV2/nets/ShuffleNetV2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV2/nets/ShuffleNetV2ForDigit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/ShuffleNetV2/train_shuffleNetV2.py" afterDir="false" />
+    <list default="true" id="762e0dfb-3742-4118-8df8-63a847a61910" name="Default Changelist" comment="ShuffleNetV2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/MobileNetV1/nets/MobileNetForDigit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/MobileNetV1/nets/MobileNetForDigit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -196,13 +184,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Classification/demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="154">
+                <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -328,8 +316,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="25" />
-    <option name="y" value="17" />
+    <option name="x" value="-5" />
+    <option name="y" value="10" />
     <option name="width" value="1943" />
     <option name="height" value="992" />
   </component>
@@ -359,6 +347,13 @@
               <item name="Classification" type="462c0819:PsiDirectoryNode" />
               <item name="ShuffleNetV2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="ShuffleNetV2" type="462c0819:PsiDirectoryNode" />
+              <item name="nets" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -375,10 +370,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ShuffleNetV2\nets" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ShuffleNetV2\models\openvino" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ShuffleNetV2\models\pb" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ShuffleNetV2" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ShuffleNetV2\nets" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\textRecognition\CNN_RNN_CTCLoss_plateRec" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -611,7 +606,7 @@
       <workItem from="1561616179974" duration="29698000" />
       <workItem from="1561768788252" duration="42656000" />
       <workItem from="1561946338110" duration="25581000" />
-      <workItem from="1562032750584" duration="918000" />
+      <workItem from="1562032750584" duration="1713000" />
     </task>
     <task id="LOCAL-00001" summary="specific label dict and add if __name__ == &quot;__main__&quot;">
       <created>1559710760596</created>
@@ -697,11 +692,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561353588530</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ShuffleNetV2">
+      <created>1562034060963</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1562034060963</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="497398000" />
+    <option name="totallyTimeSpent" value="498193000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -713,9 +715,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="194" y="34" width="1554" height="793" extended-state="0" />
+    <frame x="-4" y="8" width="1554" height="793" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22727273" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09358289" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -755,22 +758,10 @@
     <MESSAGE value="CTC Loss.docx" />
     <MESSAGE value="small &quot;error&quot; in shuffleNet" />
     <MESSAGE value="MobileNetV2" />
-    <option name="LAST_COMMIT_MESSAGE" value="MobileNetV2" />
+    <MESSAGE value="ShuffleNetV2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ShuffleNetV2" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Classification/MobileNetV2/nets/MobileNetV2ForDigit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#48#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/MobileNetV2/models/MobileNetV2-2500.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1861741381/numpy/core/multiarray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -1148,13 +1139,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="352">
-            <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV2/nets/shuffleNetV2_unit.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV2/nets/shuffleNetV2.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1165,13 +1162,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="154">
+            <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
