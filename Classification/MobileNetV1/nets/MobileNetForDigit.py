@@ -89,6 +89,10 @@ class MobileNetForDigit(object):
                                     logits=logits+1e-8,labels=labels),name="softmax_loss")
         tf.add_to_collection("Loss",softmax_loss)
         loss_all=tf.add_n(tf.get_collection("Loss"),name="total_loss")
+
+        #应该再加上一个正则损失
+        #regularization_loss=tf.add_n(tf.get_collection(tf.GraphKeys.REGULARIZATION_LOSSES))
+
         return loss_all
 
     def mobilenet_arg_scope(self,weight_decay=0.0):
