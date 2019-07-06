@@ -20,19 +20,22 @@ class CTCRecognizer(object):
 
     def inference(self,inputs,seq_length):
 
-        cell = tf.contrib.rnn.LSTMCell(64, state_is_tuple=True)
+        #inputs:(batch_size,max_step,image_height)  # image_height:序列长度
+
+        cell = tf.contrib.rnn.LSTMCell(self.num_hidden, state_is_tuple=True)
+        #inner_outputs:(batch_size, max_step, num_hidden)
         inner_outputs, _ = tf.nn.dynamic_rnn(cell, inputs, seq_length, time_major=False, dtype=tf.float32)
 
         shape = tf.shape(inputs)
         batch_s, max_time_steps = shape[0], shape[1]
-        outputs = tf.reshape(inner_outputs, [-1, 64])  # (7680, 64)
+        outputs = tf.reshape(inner_outputs, [batch_s*max_time_steps, self.num_hidden])  #(batch_size*max_step,num_hidden)
 
-        w = tf.Variable(tf.truncated_normal([64, 12], stddev=0.1), name="w")
-        b = tf.Variable(tf.constant(0., shape=[12]), name="b")
-        logits1 = tf.matmul(outputs, w) + b  # (7680, 12)
+        w = tf.Variable(tf.truncated_normal([self.num_hidden, self.num_classes], stddev=0.1), name="w")
+        b = tf.Variable(tf.constant(0., shape=[self.num_classes]), name="b")
+        logits1 = tf.matmul(outputs, w) + b  # (batch_size*max_step,num_class)
         # 变换成和标签向量一致的shape
-        logits2 = tf.reshape(logits1, [batch_s, -1, 12])  # (64,120, 12)
-        logits = tf.transpose(logits2, (1, 0, 2))  # (120, 64, 12) -(max_step,batch_size,num_class)
+        logits2 = tf.reshape(logits1, [batch_s, max_time_steps, self.num_classes])  # (batch_size,max_step,num_class)
+        logits = tf.transpose(logits2, (1, 0, 2))  # (max_step,batch_size,num_class)
 
         return logits
 

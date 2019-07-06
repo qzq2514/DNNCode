@@ -10,7 +10,7 @@ from nets import LprLocNet
 import numpy as np
 
 # images_dir = "D:/forTensorflow/plateLandmarkDetTrain2/demo/images"
-images_dir = "D:/forTensorflow/plateLandmarkDetTrain2/images"
+images_dir = "D:/forTensorflow/plateLandmarkDetTrain2/TX/images"
 # image_dir="D:/forTensorflow/plateLandmarkDetTrain/All/test/images/"
 # image_dir="D:/forTensorflow/plateLandmarkDetTrain/WI/images/"
 

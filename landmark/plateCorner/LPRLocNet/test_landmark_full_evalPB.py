@@ -11,7 +11,7 @@ import os
 
 
 model_path = "models/plateCornerDetFull30.pb"
-eval_dir=   "D:/forTensorflow/plateLandmarkDetTrain2/images"
+eval_dir=   "D:/forTensorflow/plateLandmarkDetTrain2/TX/images"
 support_image_extensions=[".jpg",".png",".jpeg",".bmp"]
 
 input_width = 80

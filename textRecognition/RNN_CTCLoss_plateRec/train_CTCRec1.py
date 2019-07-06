@@ -10,8 +10,8 @@ from tensorflow.python.framework import graph_util
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
-input_width=120
-input_height=40
+input_width=120     #每个样本有多少个序列
+input_height=40     #样本内每个序列的长度是多少
 
 num_hidden = 64
 batch_size = 64

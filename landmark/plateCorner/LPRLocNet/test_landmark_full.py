@@ -21,7 +21,7 @@ show_height = 200
 
 # image_path="test_images"
 # image_path = "D:/forTensorflow/plateLandmarkDetTrain1/AZ/images"
-image_path = "D:/forTensorflow/plateLandmarkDetTrain2/images"
+image_path = "D:/forTensorflow/plateLandmarkDetTrain2/TX/images"
 # image_path = "P:/WorkSpace/LabProject/DNNEngineV3_2019_1batch_person/DNNEngine/pics"
 
 landmark_model_path="models/plateCornerDetFull30.h5"
