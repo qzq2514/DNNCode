@@ -2,16 +2,342 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="762e0dfb-3742-4118-8df8-63a847a61910" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tools/split_train_test_with_label.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/models/ResNetV1_digit_M33-2000.mapping" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/models/ckpt/ResNetV1_digit_M33.ckpt-2000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/nets/ResNet_Utils_v1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV1/train_resNetV1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/evalCKPT_Placeholder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/evalPB_Placeholder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/label_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/nets/ResNetV2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/nets/ResNet_Utils_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/ckpt/CTC_CA_simpleCNN_l2_argument_-10000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/ckpt/CTC_CA_simpleCNN_l2_argument_-10000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/ckpt/CTC_CA_simpleCNN_l2_argument_-10000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/ckpt/CTC_CA_simpleCNN_l2_argument_-9200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/ckpt/CTC_CA_simpleCNN_l2_argument_-9200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/ckpt/CTC_CA_simpleCNN_l2_argument_-9200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/ckpt/CTC_CA_simpleCNN_l2_argument_-9400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/ckpt/CTC_CA_simpleCNN_l2_argument_-9400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/ckpt/CTC_CA_simpleCNN_l2_argument_-9400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/ckpt/CTC_CA_simpleCNN_l2_argument_-9600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/ckpt/CTC_CA_simpleCNN_l2_argument_-9600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/ckpt/CTC_CA_simpleCNN_l2_argument_-9600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/ckpt/CTC_CA_simpleCNN_l2_argument_-9800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/ckpt/CTC_CA_simpleCNN_l2_argument_-9800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/ckpt/CTC_CA_simpleCNN_l2_argument_-9800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/ckpt/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-1000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-10000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-1200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-1400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-1600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-1800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-2000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-2200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-2400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-2600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-2800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-3000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-3200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-3400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-3600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-3800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-4000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-4200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-4400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-4600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-4800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-5000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-5200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-5400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-5600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-5800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-6000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-6200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-6400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-6600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-6800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-7000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-7200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-7400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-7600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-7800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-8000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-8200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-8400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-8600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-8800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-9000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-9200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-9400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-9600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/CTC_CA_simpleCNN_argument/pb/CTC_CA_simpleCNN_l2_argument_-9800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/changName.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/evalPB1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/evalPB2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/findBestModel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/ckpt/CTC_CA_NoRNN_BN_dropout-12000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/ckpt/CTC_CA_NoRNN_BN_dropout-12000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/ckpt/CTC_CA_NoRNN_BN_dropout-12000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/ckpt/CTC_CA_NoRNN_BN_dropout-12200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/ckpt/CTC_CA_NoRNN_BN_dropout-12200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/ckpt/CTC_CA_NoRNN_BN_dropout-12200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/ckpt/CTC_CA_NoRNN_BN_dropout-12400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/ckpt/CTC_CA_NoRNN_BN_dropout-12400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/ckpt/CTC_CA_NoRNN_BN_dropout-12400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/ckpt/CTC_CA_NoRNN_BN_dropout-12600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/ckpt/CTC_CA_NoRNN_BN_dropout-12600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/ckpt/CTC_CA_NoRNN_BN_dropout-12600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/ckpt/CTC_CA_NoRNN_BN_dropout-12800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/ckpt/CTC_CA_NoRNN_BN_dropout-12800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/ckpt/CTC_CA_NoRNN_BN_dropout-12800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/ckpt/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-10000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-10200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-10400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-10600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-10800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-11000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-11200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-11400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-11600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-11800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-12000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-12200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-12400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-12600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-12800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-5800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-6000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-6200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-6400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-6600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-6800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-7000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-7200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-7400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-7600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-7800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-8000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-8200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-8400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-8600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-8800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-9000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-9200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-9400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-9600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models/pb/CTC_CA_NoRNN_BN_dropout-9800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-12200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-12200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-12200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-12400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-12400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-12400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-12600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-12600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-12600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-12800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-12800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-12800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-13000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-13000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-13000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-13200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-13200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-13200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-13400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-13400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-13400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-13600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-13600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-13600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-13800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-13800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-13800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-20800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-20800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-20800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-21000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-21000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-21000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-21200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-21200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-21200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-21400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-21400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-21400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-21600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-21600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/CTC_CA-21600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/ckpt/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/pb/CTC_CA-21400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models1_RNN_only/pb/CTC_CA-21600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/ckpt/CTC_CA_simpleCNN_droupout_bn-20200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/ckpt/CTC_CA_simpleCNN_droupout_bn-20200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/ckpt/CTC_CA_simpleCNN_droupout_bn-20200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/ckpt/CTC_CA_simpleCNN_droupout_bn-20400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/ckpt/CTC_CA_simpleCNN_droupout_bn-20400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/ckpt/CTC_CA_simpleCNN_droupout_bn-20400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/ckpt/CTC_CA_simpleCNN_droupout_bn-20600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/ckpt/CTC_CA_simpleCNN_droupout_bn-20600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/ckpt/CTC_CA_simpleCNN_droupout_bn-20600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/ckpt/CTC_CA_simpleCNN_droupout_bn-20800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/ckpt/CTC_CA_simpleCNN_droupout_bn-20800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/ckpt/CTC_CA_simpleCNN_droupout_bn-20800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/ckpt/CTC_CA_simpleCNN_droupout_bn-21000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/ckpt/CTC_CA_simpleCNN_droupout_bn-21000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/ckpt/CTC_CA_simpleCNN_droupout_bn-21000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/ckpt/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/pb/CTC_CA_simpleCNN_droupout_bn-20600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/pb/CTC_CA_simpleCNN_droupout_bn-20800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_bn/pb/CTC_CA_simpleCNN_droupout_bn-21000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_norm/ckpt/CTC_CA_simpleCNN2-19600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_norm/ckpt/CTC_CA_simpleCNN2-19600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_norm/ckpt/CTC_CA_simpleCNN2-19600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_norm/ckpt/CTC_CA_simpleCNN2-19800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_norm/ckpt/CTC_CA_simpleCNN2-19800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_norm/ckpt/CTC_CA_simpleCNN2-19800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_norm/ckpt/CTC_CA_simpleCNN2-20000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_norm/ckpt/CTC_CA_simpleCNN2-20000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_norm/ckpt/CTC_CA_simpleCNN2-20000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_norm/ckpt/CTC_CA_simpleCNN2-20200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_norm/ckpt/CTC_CA_simpleCNN2-20200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_norm/ckpt/CTC_CA_simpleCNN2-20200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_norm/ckpt/CTC_CA_simpleCNN2-20400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_norm/ckpt/CTC_CA_simpleCNN2-20400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_norm/ckpt/CTC_CA_simpleCNN2-20400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_norm/ckpt/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_norm/pb/CTC_CA_simpleCNN2-20200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_norm/pb/CTC_CA_simpleCNN2-20400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_only_train/ckpt/CTC_CA2-25400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_only_train/ckpt/CTC_CA2-25400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_only_train/ckpt/CTC_CA2-25400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_only_train/ckpt/CTC_CA2-25600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_only_train/ckpt/CTC_CA2-25600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_only_train/ckpt/CTC_CA2-25600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_only_train/ckpt/CTC_CA2-25800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_only_train/ckpt/CTC_CA2-25800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_only_train/ckpt/CTC_CA2-25800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_only_train/ckpt/CTC_CA2-26000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_only_train/ckpt/CTC_CA2-26000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_only_train/ckpt/CTC_CA2-26000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_only_train/ckpt/CTC_CA2-26200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_only_train/ckpt/CTC_CA2-26200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_only_train/ckpt/CTC_CA2-26200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_only_train/ckpt/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_only_train/pb/CTC_CA2-26000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2_only_train/pb/CTC_CA2-26200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2moreSimple_dropout/ckpt/CTC_CA_simpleCNN_droupout-43800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2moreSimple_dropout/ckpt/CTC_CA_simpleCNN_droupout-43800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2moreSimple_dropout/ckpt/CTC_CA_simpleCNN_droupout-43800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2moreSimple_dropout/ckpt/CTC_CA_simpleCNN_droupout-44000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2moreSimple_dropout/ckpt/CTC_CA_simpleCNN_droupout-44000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2moreSimple_dropout/ckpt/CTC_CA_simpleCNN_droupout-44000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2moreSimple_dropout/ckpt/CTC_CA_simpleCNN_droupout-44200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2moreSimple_dropout/ckpt/CTC_CA_simpleCNN_droupout-44200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2moreSimple_dropout/ckpt/CTC_CA_simpleCNN_droupout-44200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2moreSimple_dropout/ckpt/CTC_CA_simpleCNN_droupout-44400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2moreSimple_dropout/ckpt/CTC_CA_simpleCNN_droupout-44400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2moreSimple_dropout/ckpt/CTC_CA_simpleCNN_droupout-44400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2moreSimple_dropout/ckpt/CTC_CA_simpleCNN_droupout-44600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2moreSimple_dropout/ckpt/CTC_CA_simpleCNN_droupout-44600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2moreSimple_dropout/ckpt/CTC_CA_simpleCNN_droupout-44600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2moreSimple_dropout/ckpt/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2moreSimple_dropout/pb/CTC_CA_simpleCNN_droupout-44400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models2moreSimple_dropout/pb/CTC_CA_simpleCNN_droupout-44600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models3train_and_test/ckpt/CTC_CA2-51000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models3train_and_test/ckpt/CTC_CA2-51000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models3train_and_test/ckpt/CTC_CA2-51000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models3train_and_test/ckpt/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models3train_and_test/pb/CTC_CA2-50200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models3train_and_test/pb/CTC_CA2-50400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models3train_and_test/pb/CTC_CA2-50600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models3train_and_test/pb/CTC_CA2-50800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models3train_and_test/pb/CTC_CA2-51000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/ckpt/CTC_CA_NoRNN_BN-2400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/ckpt/CTC_CA_NoRNN_BN-2400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/ckpt/CTC_CA_NoRNN_BN-2400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/ckpt/CTC_CA_NoRNN_BN-2600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/ckpt/CTC_CA_NoRNN_BN-2600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/ckpt/CTC_CA_NoRNN_BN-2600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/ckpt/CTC_CA_NoRNN_BN-2800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/ckpt/CTC_CA_NoRNN_BN-2800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/ckpt/CTC_CA_NoRNN_BN-2800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/ckpt/CTC_CA_NoRNN_BN-3000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/ckpt/CTC_CA_NoRNN_BN-3000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/ckpt/CTC_CA_NoRNN_BN-3000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/ckpt/CTC_CA_NoRNN_BN-3200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/ckpt/CTC_CA_NoRNN_BN-3200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/ckpt/CTC_CA_NoRNN_BN-3200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/ckpt/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/pb/CTC_CA_NoRNN_BN-2200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/pb/CTC_CA_NoRNN_BN-2400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_NoRNN_BN/pb/CTC_CA_NoRNN_BN-2600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_simpleCNN/ckpt/CTC_CA_simpleCNN_-48600.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_simpleCNN/ckpt/CTC_CA_simpleCNN_-48600.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_simpleCNN/ckpt/CTC_CA_simpleCNN_-48600.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_simpleCNN/ckpt/CTC_CA_simpleCNN_-48800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_simpleCNN/ckpt/CTC_CA_simpleCNN_-48800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_simpleCNN/ckpt/CTC_CA_simpleCNN_-48800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_simpleCNN/ckpt/CTC_CA_simpleCNN_-49000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_simpleCNN/ckpt/CTC_CA_simpleCNN_-49000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_simpleCNN/ckpt/CTC_CA_simpleCNN_-49000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_simpleCNN/ckpt/CTC_CA_simpleCNN_-49200.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_simpleCNN/ckpt/CTC_CA_simpleCNN_-49200.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_simpleCNN/ckpt/CTC_CA_simpleCNN_-49200.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_simpleCNN/ckpt/CTC_CA_simpleCNN_-49400.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_simpleCNN/ckpt/CTC_CA_simpleCNN_-49400.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_simpleCNN/ckpt/CTC_CA_simpleCNN_-49400.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_simpleCNN/ckpt/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/models_simpleCNN/pb/CTC_CA_simpleCNN_-49400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/net/CTCRecognizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/net/CTCRecognizer2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/net/CTCRecognizer3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/net/CTCRecognizer_NoRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/net/CTCRecognizer_bn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/net/CTCRecognizer_moreSimple_dropout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/show.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/train_CTCRec1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/train_CTCRec2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/train_CTCRec3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/train_CTCRec3_bn_dropout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/train_NoRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/SelectRects_CTC/evalPB1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/SelectRects_CTC/load.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/SelectRects_CTC/models_org_128hhidden/ckpt/CTC_SelectRects-17800.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/SelectRects_CTC/models_org_128hhidden/ckpt/CTC_SelectRects-17800.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/SelectRects_CTC/models_org_128hhidden/ckpt/CTC_SelectRects-17800.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/SelectRects_CTC/models_org_128hhidden/ckpt/CTC_SelectRects-18000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/SelectRects_CTC/models_org_128hhidden/ckpt/CTC_SelectRects-18000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/SelectRects_CTC/models_org_128hhidden/ckpt/CTC_SelectRects-18000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/SelectRects_CTC/models_org_128hhidden/ckpt/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/SelectRects_CTC/models_org_128hhidden/pb/CTC_SelectRects-17000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/SelectRects_CTC/models_org_128hhidden/pb/CTC_SelectRects-17200.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/SelectRects_CTC/models_org_128hhidden/pb/CTC_SelectRects-17400.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/SelectRects_CTC/models_org_128hhidden/pb/CTC_SelectRects-17600.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/SelectRects_CTC/models_org_128hhidden/pb/CTC_SelectRects-17800.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/SelectRects_CTC/models_org_128hhidden/pb/CTC_SelectRects-18000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/SelectRects_CTC/net/CTCRec_SelectRects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textRecognition/SelectRects_CTC/train_selectRects.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/test_landmark_full.py" beforeDir="false" afterPath="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/test_landmark_full.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/test_landmark_full_evalPB.py" beforeDir="false" afterPath="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/test_landmark_full_evalPB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/train_landmark_saveFull.py" beforeDir="false" afterPath="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/train_landmark_saveFull.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/train_landmark_saveWeights.py" beforeDir="false" afterPath="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/train_landmark_saveWeights.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/evalPB1.py" beforeDir="false" afterPath="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/evalPB1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/eval_freeze_openvino.py" beforeDir="false" afterPath="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/eval_freeze_openvino.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/net/CTCRecognizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/net/CTCRecognizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/train_CTCRec1.py" beforeDir="false" afterPath="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/train_CTCRec1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/ResNetV1/label_map.json" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/ResNetV1/label_map.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/ResNetV1/models/ResNetV1_MM2-8200.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/ResNetV1/models/pb/ResNetV1_digit_M33-2000.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/ResNetV1/models/ckpt/ResNetV1_MM2.ckpt-8400.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/ResNetV1/models/ckpt/ResNetV1_digit_M33.ckpt-2000.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/ResNetV1/models/ckpt/ResNetV1_MM2.ckpt-8400.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/ResNetV1/models/ckpt/ResNetV1_MM2.ckpt-8400.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/ResNetV1/models/ckpt/ResNetV1_digit_M33.ckpt-2000.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/ResNetV1/models/pb/ResNetV1_digit_M33-2000.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/ResNetV1/models/pb/ResNetV1_digit_M33-2000.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/ResNetV1/nets/ResNet_Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/ResNetV2/nets/ResNet_Utils_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classification/ResNetV1/train_classifier_ResNetV1_Placehoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/ResNetV2/train_ResNetV2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/CTC Loss.docx" beforeDir="false" afterPath="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/CTC Loss.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +358,7 @@
     <SUITE FILE_PATH="coverage/DNNCode$eval_CTC_pharse.coverage" NAME="eval_CTC_pharse Coverage Results" MODIFIED="1561103635024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
     <SUITE FILE_PATH="coverage/DNNCode$LprNetRec_org.coverage" NAME="LprNetRec_org Coverage Results" MODIFIED="1560777574777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/net" />
     <SUITE FILE_PATH="coverage/DNNCode$train_CTCRec2__1_.coverage" NAME="train_CTCRec2 Coverage Results" MODIFIED="1561113559312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_ResNetV2.coverage" NAME="train_ResNetV2 Coverage Results" MODIFIED="1562593385594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ResNetV2" />
     <SUITE FILE_PATH="coverage/DNNCode$reTrainWithoueBN.coverage" NAME="reTrainWithoueBN Coverage Results" MODIFIED="1559622898088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$train_CTCRecognizer.coverage" NAME="train_CTCRecognizer Coverage Results" MODIFIED="1561101315956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
     <SUITE FILE_PATH="coverage/DNNCode$split_train_test_with_label.coverage" NAME="split_train_test_with_label Coverage Results" MODIFIED="1562132979860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
@@ -51,7 +378,7 @@
     <SUITE FILE_PATH="coverage/DNNCode$train_CTCRec2.coverage" NAME="train_CTCRec2 Coverage Results" MODIFIED="1561708828075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec" />
     <SUITE FILE_PATH="coverage/DNNCode$freezing_graph.coverage" NAME="freezing_graph Coverage Results" MODIFIED="1561116879897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
     <SUITE FILE_PATH="coverage/DNNCode$reTrainWithoutBN.coverage" NAME="reTrainWithoutBN Coverage Results" MODIFIED="1559557729436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
-    <SUITE FILE_PATH="coverage/DNNCode$train_classifier_ResNetV1_Placehoder.coverage" NAME="train_classifier_ResNetV1_Placehoder Coverage Results" MODIFIED="1560220249750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_classifier_ResNetV1_Placehoder.coverage" NAME="train_classifier_ResNetV1_Placehoder Coverage Results" MODIFIED="1562588872234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ResNetV2" />
     <SUITE FILE_PATH="coverage/DNNCode$train_LprNetRec.coverage" NAME="train_LprNetRec Coverage Results" MODIFIED="1560568444947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
     <SUITE FILE_PATH="coverage/DNNCode$test_ResNetV1.coverage" NAME="test_ResNetV1 Coverage Results" MODIFIED="1560127724279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ResNetV1/nets" />
     <SUITE FILE_PATH="coverage/DNNCode$get_filepath.coverage" NAME="get_filepath Coverage Results" MODIFIED="1561042720724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
@@ -66,7 +393,7 @@
     <SUITE FILE_PATH="coverage/DNNCode$demoFreeType.coverage" NAME="demoFreeType Coverage Results" MODIFIED="1560670285321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/VerificationCodeRec" />
     <SUITE FILE_PATH="coverage/DNNCode$train_shuffleNetV2.coverage" NAME="train_shuffleNetV2 Coverage Results" MODIFIED="1561960052898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ShuffleNetV2" />
     <SUITE FILE_PATH="coverage/DNNCode$train_modify3.coverage" NAME="train_modify3 Coverage Results" MODIFIED="1561026470274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
-    <SUITE FILE_PATH="coverage/DNNCode$evalPB1__1_.coverage" NAME="evalPB1 (1) Coverage Results" MODIFIED="1562396787396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/SelectRects_CTC" />
+    <SUITE FILE_PATH="coverage/DNNCode$evalPB1__1_.coverage" NAME="evalPB1 (1) Coverage Results" MODIFIED="1562422757630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/SelectRects_CTC" />
     <SUITE FILE_PATH="coverage/DNNCode$SIFT.coverage" NAME="SIFT Coverage Results" MODIFIED="1561034772794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DNNCode$dataAugmentor.coverage" NAME="dataAugmentor Coverage Results" MODIFIED="1561865455889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/myFile/myPyFiles" />
     <SUITE FILE_PATH="coverage/DNNCode$my_train_LprNetRec.coverage" NAME="my_train_LprNetRec Coverage Results" MODIFIED="1560776526224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
@@ -82,12 +409,12 @@
     <SUITE FILE_PATH="coverage/DNNCode$get_trans_image__1_.coverage" NAME="get_trans_image (1) Coverage Results" MODIFIED="1560164480786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner" />
     <SUITE FILE_PATH="coverage/DNNCode$eval_CTC_no_pharse.coverage" NAME="eval_CTC_no_pharse Coverage Results" MODIFIED="1561103449332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
     <SUITE FILE_PATH="coverage/DNNCode$evalCKPT_model2_M2.coverage" NAME="evalCKPT_model2_M2 Coverage Results" MODIFIED="1559626294219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
-    <SUITE FILE_PATH="coverage/DNNCode$evalPB1.coverage" NAME="evalPB1 Coverage Results" MODIFIED="1562151850246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec" />
+    <SUITE FILE_PATH="coverage/DNNCode$evalPB1.coverage" NAME="evalPB1 Coverage Results" MODIFIED="1562398302927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec" />
     <SUITE FILE_PATH="coverage/DNNCode$test_landmark_full.coverage" NAME="test_landmark_full Coverage Results" MODIFIED="1562130019455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LprLocNet" />
     <SUITE FILE_PATH="coverage/DNNCode$test_landmark_onlyWeights.coverage" NAME="test_landmark_onlyWeights Coverage Results" MODIFIED="1560242729730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LprLocNet" />
     <SUITE FILE_PATH="coverage/DNNCode$train_classifier_MobileNet_m2.coverage" NAME="train_classifier_MobileNet_m2 Coverage Results" MODIFIED="1559624407384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$get_trans_image.coverage" NAME="get_trans_image Coverage Results" MODIFIED="1560150420881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/keras" />
-    <SUITE FILE_PATH="coverage/DNNCode$train_selectRects.coverage" NAME="train_selectRects Coverage Results" MODIFIED="1562382062985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/SelectRects_CTC" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_selectRects.coverage" NAME="train_selectRects Coverage Results" MODIFIED="1562412772686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/SelectRects_CTC" />
     <SUITE FILE_PATH="coverage/DNNCode$stn_model__1_.coverage" NAME="stn_model (1) Coverage Results" MODIFIED="1560216766202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode" />
     <SUITE FILE_PATH="coverage/DNNCode$eval_CTC_no_pharse_pb_openvino.coverage" NAME="eval_CTC_no_pharse_pb_openvino Coverage Results" MODIFIED="1561104614660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
     <SUITE FILE_PATH="coverage/DNNCode$evalPB.coverage" NAME="evalPB Coverage Results" MODIFIED="1560241996059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LprLocNet" />
@@ -115,7 +442,7 @@
     <SUITE FILE_PATH="coverage/DNNCode$ResNet_Utils.coverage" NAME="ResNet_Utils Coverage Results" MODIFIED="1560141335514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ResNetV1/nets" />
     <SUITE FILE_PATH="coverage/DNNCode$bn_train.coverage" NAME="bn_train Coverage Results" MODIFIED="1559565075391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/batch_mnist" />
     <SUITE FILE_PATH="coverage/DNNCode$test_landmark_full_evalPB.coverage" NAME="test_landmark_full_evalPB Coverage Results" MODIFIED="1561031255923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LprLocNet" />
-    <SUITE FILE_PATH="coverage/DNNCode$train_classifier_ResNetV1_Placehoder__1_.coverage" NAME="train_classifier_ResNetV1_Placehoder (1) Coverage Results" MODIFIED="1560220600517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ResNetV1" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_classifier_ResNetV1_Placehoder__1_.coverage" NAME="train_classifier_ResNetV1_Placehoder (1) Coverage Results" MODIFIED="1562593767371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ResNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$CKPT2PB_NoBN.coverage" NAME="CKPT2PB_NoBN Coverage Results" MODIFIED="1559621710989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$train_epoch.coverage" NAME="train_epoch Coverage Results" MODIFIED="1559474907945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification" />
     <SUITE FILE_PATH="coverage/DNNCode$train_modify.coverage" NAME="train_modify Coverage Results" MODIFIED="1560957807279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/myVerificationCodeRec" />
@@ -157,57 +484,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/net/CTCRecognizer.py">
+        <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/nets/ResNetV2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+            <state relative-caret-position="66">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/train_CTCRec1.py">
+        <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/nets/ResNet_Utils_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="412">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/evalPB1.py">
+        <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/train_ResNetV2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="198">
+              <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="46" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/models/ResNetV1_digit_M33-2000.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/eval_freeze_openvino.py">
+        <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/train_resNetV1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="66">
+              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/evalCKPT1.py">
+        <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNet_Utils_v1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="558">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -223,15 +550,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get_images_path</find>
-      <find>&quot;-&quot;</find>
-      <find>batch</find>
-      <find>mobilenet_arg_scope</find>
-      <find>model_name</find>
-      <find>epoch:</find>
-      <find>cur_epoch_iters_num</find>
-      <find>&quot;Loss&quot;</find>
-      <find>weights_regularizer</find>
       <find>postprocess</find>
       <find>net</find>
       <find>get_variable_with_l2_loss</find>
@@ -253,6 +571,15 @@
       <find>charDict</find>
       <find>max_step_downsampling_num</find>
       <find>one_moving_meaning:</find>
+      <find>map_fn</find>
+      <find>keep_prop</find>
+      <find>dense_predictions</find>
+      <find>resNet_type</find>
+      <find>top_2_filter_nums</find>
+      <find>unit_output_channals</find>
+      <find>conv2d_same</find>
+      <find>ResUnit_forward</find>
+      <find>resNet_inference</find>
     </findStrings>
     <replaceStrings>
       <replace>corners</replace>
@@ -266,17 +593,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/eval_freeze_openvino.py" />
-        <option value="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/evalPB1.py" />
-        <option value="$PROJECT_DIR$/Classification/ShuffleNetV1/nets/ShuffleNetV1ForDigit.py" />
-        <option value="$PROJECT_DIR$/Classification/MobileNetV2/train_classifier_MobileNet_Placehoder.py" />
-        <option value="$PROJECT_DIR$/Classification/MobileNetV2/train_classifier_MobileNetV2_Placehoder.py" />
-        <option value="$PROJECT_DIR$/Classification/MobileNetV2/evalPB_Placeholder.py" />
-        <option value="$PROJECT_DIR$/Classification/MobileNetV2/nets/MobileNetV2ForDigit.py" />
-        <option value="$PROJECT_DIR$/Classification/MobileNetV2/nets/MobileNetV2.py" />
         <option value="$PROJECT_DIR$/Classification/MobileNetV2/evalCKPT_Placeholder.py" />
         <option value="$PROJECT_DIR$/Classification/myDigitClassifier/train_myClassifier.py" />
-        <option value="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/net/CTCRecognizer.py" />
         <option value="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/net/CTCRecognizer2.py" />
         <option value="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/train_CTCRec1.py" />
         <option value="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/train_CTCRec2.py" />
@@ -296,7 +614,6 @@
         <option value="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/net/CTCRecognizer_NoRNN.py" />
         <option value="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/train_CTCRec2.py" />
         <option value="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/findBestModel.py" />
-        <option value="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/evalPB1.py" />
         <option value="$PROJECT_DIR$/Classification/ShuffleNetV2/nets/ShuffleNetV2.py" />
         <option value="$PROJECT_DIR$/Classification/ShuffleNetV2/nets/ShuffleNetV2ForDigit.py" />
         <option value="$PROJECT_DIR$/Classification/ShuffleNetV2/train_shuffleNetV2.py" />
@@ -310,21 +627,31 @@
         <option value="$PROJECT_DIR$/textRecognition/SelectRects_CTC/load.py" />
         <option value="$PROJECT_DIR$/textRecognition/SelectRects_CTC/net/CTCRecognizer_NoRNN.py" />
         <option value="$PROJECT_DIR$/textRecognition/SelectRects_CTC/train_CTCRec1.py" />
-        <option value="$PROJECT_DIR$/textRecognition/SelectRects_CTC/train_selectRects.py" />
-        <option value="$PROJECT_DIR$/textRecognition/SelectRects_CTC/evalPB1.py" />
-        <option value="$PROJECT_DIR$/textRecognition/SelectRects_CTC/net/CTCRec_SelectRects.py" />
         <option value="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/net/CTCRecognizer.py" />
         <option value="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/train_CTCRec1.py" />
         <option value="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/evalPB1.py" />
         <option value="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/eval_freeze_openvino.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/net/CTCRecognizer.py" />
+        <option value="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/evalPB1.py" />
+        <option value="$PROJECT_DIR$/textRecognition/SelectRects_CTC/net/CTCRec_SelectRects.py" />
+        <option value="$PROJECT_DIR$/textRecognition/SelectRects_CTC/train_selectRects.py" />
+        <option value="$PROJECT_DIR$/textRecognition/SelectRects_CTC/evalPB1.py" />
+        <option value="$PROJECT_DIR$/Classification/ResNetV2/nets/ResNetV1.py" />
+        <option value="$PROJECT_DIR$/Classification/ResNetV1/nets/ResNet_Utils.py" />
+        <option value="$PROJECT_DIR$/Classification/ResNetV2/train_ResNetV2.py" />
+        <option value="$PROJECT_DIR$/Classification/ResNetV2/nets/ResNet_Utils.py" />
+        <option value="$PROJECT_DIR$/Classification/ResNetV2/nets/ResNetV2.py" />
+        <option value="$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1.py" />
+        <option value="$PROJECT_DIR$/Classification/ResNetV1/models/ResNetV1_digit_M33-2000.xml" />
+        <option value="$PROJECT_DIR$/Classification/ResNetV1/train_resNetV1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="37" />
-    <option name="y" value="32" />
-    <option name="width" value="1844" />
-    <option name="height" value="1005" />
+    <option name="x" value="522" />
+    <option name="y" value="15" />
+    <option name="width" value="1943" />
+    <option name="height" value="950" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -334,7 +661,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -345,18 +671,51 @@
             <path>
               <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
-              <item name="textRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="ResNetV1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="ResNetV1" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="ResNetV1" type="462c0819:PsiDirectoryNode" />
+              <item name="nets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="ResNetV2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="ResNetV2" type="462c0819:PsiDirectoryNode" />
+              <item name="nets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
               <item name="textRecognition" type="462c0819:PsiDirectoryNode" />
-              <item name="RNN_CTCLoss_plateRec" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,18 +727,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="P:\WorkSpace\myGithub\DNNCode\textRecognition\SelectRects_CTC" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\textRecognition\SelectRects_CTC\net" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\tools" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\textRecognition" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ShuffleNetV2\nets" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1\nets" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1\models\ckpt" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1\models\pb" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1\models" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ShuffleNetV2\models\ckpt" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\textRecognition\CNN_CTCLoss_LprNet" />
       <recent name="P:\WorkSpace\myGithub\DNNCode" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ShuffleNetV1\nets" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\landmark\plateCorner\LprLocNet" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -394,7 +753,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.evalPB1 (2)">
+  <component name="RunManager" selected="Python.train_classifier_ResNetV1_Placehoder (1)">
     <configuration name="evalPB1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNNCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -417,28 +776,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="evalPB1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DNNCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/evalPB1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="evalPB1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNNCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -483,7 +820,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="eval_freeze_openvino" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="train_ResNetV2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNNCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -491,12 +828,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classification/ResNetV2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/eval_freeze_openvino.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classification/ResNetV2/train_ResNetV2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -505,7 +842,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train_CTCRec1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="train_classifier_ResNetV1_Placehoder (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNNCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -513,12 +850,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classification/ResNetV1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/train_CTCRec1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classification/ResNetV1/train_classifier_ResNetV1_Placehoder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_classifier_ResNetV1_Placehoder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DNNCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classification/ResNetV2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV2\train_ResNetV2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -550,17 +909,18 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.evalPB1" />
       <item itemvalue="Python.train_selectRects" />
-      <item itemvalue="Python.train_CTCRec1" />
       <item itemvalue="Python.evalPB1 (1)" />
-      <item itemvalue="Python.evalPB1 (2)" />
-      <item itemvalue="Python.eval_freeze_openvino" />
+      <item itemvalue="Python.train_classifier_ResNetV1_Placehoder" />
+      <item itemvalue="Python.train_classifier_ResNetV1_Placehoder (1)" />
+      <item itemvalue="Python.train_ResNetV2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.evalPB1 (2)" />
-        <item itemvalue="Python.eval_freeze_openvino" />
-        <item itemvalue="Python.train_CTCRec1" />
+        <item itemvalue="Python.train_classifier_ResNetV1_Placehoder (1)" />
+        <item itemvalue="Python.train_ResNetV2" />
+        <item itemvalue="Python.train_classifier_ResNetV1_Placehoder" />
         <item itemvalue="Python.evalPB1 (1)" />
         <item itemvalue="Python.train_selectRects" />
       </list>
@@ -615,7 +975,9 @@
       <workItem from="1562208385545" duration="6183000" />
       <workItem from="1562287946743" duration="3842000" />
       <workItem from="1562325686965" duration="993000" />
-      <workItem from="1562377281963" duration="10001000" />
+      <workItem from="1562377281963" duration="18159000" />
+      <workItem from="1562588653605" duration="5867000" />
+      <workItem from="1562668458515" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="specific label dict and add if __name__ == &quot;__main__&quot;">
       <created>1559710760596</created>
@@ -715,11 +1077,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562034539185</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="replace constant with variable in CTCRecognizer">
+      <created>1562397830287</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1562397830287</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="531006000" />
+    <option name="totallyTimeSpent" value="545354000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -731,15 +1100,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="153" y="47" width="1475" height="804" extended-state="0" />
+    <frame x="102" y="30" width="1460" height="760" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19760056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20970044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.375" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.23654391" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3937677" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -776,96 +1145,10 @@
     <MESSAGE value="MobileNetV2" />
     <MESSAGE value="ShuffleNetV2" />
     <MESSAGE value="update readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update readme.md" />
+    <MESSAGE value="replace constant with variable in CTCRecognizer" />
+    <option name="LAST_COMMIT_MESSAGE" value="replace constant with variable in CTCRecognizer" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/findBestModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV2/nets/shuffleNetV2_unit.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV2/nets/shuffleNetV2.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="154">
-            <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV2/nets/ShuffleNetV2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2134">
-          <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV2/nets/ShuffleNetV2ForDigit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2222">
-          <caret line="104" column="25" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV2/train_shuffleNetV2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV2/evalPB_Placeholder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/net/CTCRecognizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" column="49" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/evalPB2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_images/0[IFPID-234046][TAG-968EWH][STATE-WI][MAKE-][PREGION-546,106,218,126].jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_images/0[IFPID-234015][TAG-113SUM][STATE-WI][MAKE-][PREGION-92,139,204,120].jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_images/0[IFPID-234014][TAG-113SUM][STATE-WI][MAKE-][PREGION-654,98,184,111].jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -963,13 +1246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/contrib/layers/python/layers/layers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="1115" column="4" selection-start-line="1115" selection-start-column="4" selection-end-line="1115" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/net/CTCRecognizer_moreSimple_dropout.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -984,13 +1260,6 @@
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/evalPB1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1014,9 +1283,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/SelectRects_CTC/net/CTCRecognizer.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/SelectRects_CTC/net/CTCRecognizer.py" />
     <entry file="file://$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/net/CTCRecognizer_NoRNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="809">
@@ -1044,80 +1311,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/train_CTCRec2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1124">
-          <caret line="226" selection-start-line="226" selection-end-line="226" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/SelectRects_CTC/train_CTCRec1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="74" column="41" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/SelectRects_CTC/evalPB1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/train_NoRNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2024">
-          <caret line="18" column="25" selection-start-line="18" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/SelectRects_CTC/train_selectRects.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/SelectRects_CTC/net/CTCRec_SelectRects.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/net/CTCRecognizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/train_CTCRec1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/evalCKPT1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/SelectRects_CTC/train_CTCRec1.py" />
     <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/test_images/1745987_615.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1136,10 +1330,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/evalPB1.py">
+    <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/evalCKPT1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="22" />
+        <state>
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -1148,11 +1341,186 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/eval_freeze_openvino.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="22">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/net/CTCRecognizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="68" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/evalPB1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/train_NoRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4598">
+          <caret line="18" column="25" selection-start-line="18" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/evalPB1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/show.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/train_CTCRec_2ways.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/train_CTCRec1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/train_CTCRec2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="216" lean-forward="true" selection-start-line="216" selection-end-line="216" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/SelectRects_CTC/net/CTCRec_SelectRects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/SelectRects_CTC/train_selectRects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/SelectRects_CTC/evalPB1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/net/CTCRecognizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1_34.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/contrib/layers/python/layers/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="3323" selection-start-line="3323" selection-end-line="3323" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/nets/ResNetV2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/train_classifier_ResNetV1_Placehoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/models/ResNetV1_digit_M33-2000.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNet_Utils_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/train_ResNetV2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/nets/ResNet_Utils_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/train_resNetV1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
         </state>
       </provider>
     </entry>

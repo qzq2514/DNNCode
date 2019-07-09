@@ -1,7 +1,7 @@
 import collections
 import tensorflow as tf
 import tensorflow.contrib.slim as slim
-from nets.ResNet_Utils import ResUnit_forward,stack_ResBlocks,conv2d_same
+from nets.ResNet_Utils_v1 import ResUnit_forward,stack_ResBlocks,conv2d_same
 
 class Block(collections.namedtuple("Block",["scope","unit_fn","args"])):
     'A named tuple describing a residual block'
@@ -73,27 +73,22 @@ class ResNetV1(object):
         return resNet_200_blocks
 
     def resNet_inference(self,inputs,blocks,scope=None):
-        with slim.arg_scope(self.ResNet_arg_scope(self._is_training)):
-            with tf.variable_scope(scope, reuse=tf.AUTO_REUSE) as sc:
-                with slim.arg_scope([slim.conv2d, ResUnit_forward, stack_ResBlocks]):
-                    net = inputs
-                    if self.indlude_root_block:  #从残差卷积前的前两个步骤开始inference
-                        with slim.arg_scope([slim.conv2d],activation_fn=None,normalizer_fn=None):
-                            net=conv2d_same(net,64,7,stride=2,scope="conv1")
-                        net=slim.max_pool2d(net,[3,3],stride=2,scope="pool1")
-                    net=stack_ResBlocks(net,blocks)
-                    net=slim.batch_norm(net,activation_fn=tf.nn.relu,scope="postNorm")
-                    if self.global_pool:
-                        # Global average pooling.
-                        # 全局平均池化,使用tf.reduce_mean比使用tf.avg_pool更快
-                        # 这里指定要平均的维度是宽高维度,即[1,2]维度。
-                        # keep_dims用于保持维度,原是[N,H,W,C],现在H和W维度平均后变成[N,1,1,C]
-                        net=tf.reduce_mean(net,[1,2],name="pool5",keep_dims=True)
-
-                    # 最后使用1x1卷积将feature map变成[N,1,1,num_classes]大小
-                    net=slim.conv2d(net,self.num_classes,[1,1],activation_fn=None,normalizer_fn=None,scope="full_conv")
-
-                    logits = tf.squeeze(net, [1, 2], name='SpatialSqueeze')
+        with tf.variable_scope(scope, reuse=tf.AUTO_REUSE) as sc:
+            net = inputs
+            if self.indlude_root_block:  #从残差卷积前的前两个步骤开始inference
+                net=conv2d_same(net,64,7,stride=2,scope="conv1")
+                net=slim.max_pool2d(net,[3,3],stride=2,scope="pool1")
+            net=stack_ResBlocks(net,blocks)
+            print("net_shape:",net)
+            if self.global_pool:
+                # Global average pooling.
+                # 全局平均池化,使用tf.reduce_mean比使用tf.avg_pool更快
+                # 这里指定要平均的维度是宽高维度,即[1,2]维度。
+                # keep_dims用于保持维度,原是[N,H,W,C],现在H和W维度平均后变成[N,1,1,C]
+                net=tf.reduce_mean(net,[1,2],name="pool5",keep_dims=True)
+            # 最后使用1x1卷积将feature map变成[N,1,1,num_classes]大小
+            net=slim.conv2d(net,self.num_classes,[1,1],activation_fn=None,normalizer_fn=None,scope="full_conv")
+            logits = tf.squeeze(net, [1, 2], name='SpatialSqueeze')
         return logits
 
     # 宽度乘数在(0,1]之间,改变卷积核个数，进而改变输入和输出的通道数
