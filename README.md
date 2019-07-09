@@ -16,7 +16,7 @@ Readers can fine-tuning the network architecture for your own tasks.
 | my classification    |        99.6        |  1.62|
 |    MobileNetV1   |        99.3        |  0.63|
 |    MobileNetV2   |        99.7        |  1.12|
-|   ResNetV1    |     96.4    |3.52|
+|   ResNetV1    |     99.8    |4.22|
 |  ShuffleNetV1  |     92.7    |    1.52|
 |  ShuffleNetV2  |     97.7    |    1.75|
 
