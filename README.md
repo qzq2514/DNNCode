@@ -10,6 +10,8 @@ environment: openvino 2019  、CORE i7、GTX 1060
 
 Names of Classfier are just the general type of CNN net,readers can go into codes to find specific type.
 Readers can fine-tuning the network architecture for your own tasks.
+(The accuarcy and speed of every classifier is only for your reference,  
+it may floats because of training steps 、learning rate and any other hyper parameter.)
 
 |   Classifier   | Accuarcy (%)|  Speed (ms)|
 |:------------:|:-------------------:|:-------------------:|
@@ -17,6 +19,7 @@ Readers can fine-tuning the network architecture for your own tasks.
 |    MobileNetV1   |        99.3        |  0.63|
 |    MobileNetV2   |        99.7        |  1.12|
 |   ResNetV1    |     99.8    |4.22|
+|   ResNetV2    |     99.2    |4.03|
 |  ShuffleNetV1  |     92.7    |    1.52|
 |  ShuffleNetV2  |     97.7    |    1.75|
 

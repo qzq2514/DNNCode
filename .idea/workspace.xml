@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="762e0dfb-3742-4118-8df8-63a847a61910" name="Default Changelist" comment="fix errors in resNetV1">
+    <list default="true" id="762e0dfb-3742-4118-8df8-63a847a61910" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/evalCKPT_Placeholder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/evalPB_Placeholder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/label_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/models/ResNetV2_digit_M3-1000.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/models/ResNetV2_digit_M3-1000.mapping" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/models/ResNetV2_digit_M3-1000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/models/ckpt/ResNetV2_digit_M3.ckpt-1000.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/models/ckpt/ResNetV2_digit_M3.ckpt-1000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/models/ckpt/ResNetV2_digit_M3.ckpt-1000.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/models/pb/ResNetV2_digit_M3-1000.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/nets/ResNetV2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/nets/ResNetV2_unit.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/nets/ResNet_Utils_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/ResNetV2/train_resNetV2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/ResNetV1/models/ckpt/ResNetV1_MM2.ckpt-8400.data-00000-of-00001" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -113,7 +126,7 @@
     <SUITE FILE_PATH="coverage/DNNCode$CKPT2PB_NoBN.coverage" NAME="CKPT2PB_NoBN Coverage Results" MODIFIED="1559621710989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$train_epoch.coverage" NAME="train_epoch Coverage Results" MODIFIED="1559474907945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification" />
     <SUITE FILE_PATH="coverage/DNNCode$train_modify.coverage" NAME="train_modify Coverage Results" MODIFIED="1560957807279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/myVerificationCodeRec" />
-    <SUITE FILE_PATH="coverage/DNNCode$evalPB_Placeholder.coverage" NAME="evalPB_Placeholder Coverage Results" MODIFIED="1562033136347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ShuffleNetV2" />
+    <SUITE FILE_PATH="coverage/DNNCode$evalPB_Placeholder.coverage" NAME="evalPB_Placeholder Coverage Results" MODIFIED="1562680667773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ResNetV2" />
     <SUITE FILE_PATH="coverage/DNNCode$train_CTCRecognizer222.coverage" NAME="train_CTCRecognizer222 Coverage Results" MODIFIED="1561085866934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
     <SUITE FILE_PATH="coverage/DNNCode$train_classifier_shuffleNetV1_Placehoder.coverage" NAME="train_classifier_shuffleNetV1_Placehoder Coverage Results" MODIFIED="1560651919619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ShuffleNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$evalPB_model.coverage" NAME="evalPB_model Coverage Results" MODIFIED="1559710306853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/myDigitClassifier" />
@@ -151,33 +164,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/models/ResNetV1_digit_M33-2000.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/train_resNetV1.py">
+        <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/evalPB_Placeholder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1298">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNet_Utils_v1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="154">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -186,8 +176,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="220">
-                <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <first_editor relative-caret-position="264">
+                <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               </first_editor>
               <second_editor />
             </state>
@@ -205,7 +195,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>postprocess</find>
       <find>net</find>
       <find>get_variable_with_l2_loss</find>
       <find>print</find>
@@ -232,9 +221,10 @@
       <find>resNet_type</find>
       <find>top_2_filter_nums</find>
       <find>unit_output_channals</find>
-      <find>conv2d_same</find>
       <find>ResUnit_forward</find>
       <find>resNet_inference</find>
+      <find>conv2d_same</find>
+      <find>preActivation</find>
     </findStrings>
     <replaceStrings>
       <replace>corners</replace>
@@ -248,9 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Classification/MobileNetV2/evalCKPT_Placeholder.py" />
-        <option value="$PROJECT_DIR$/Classification/myDigitClassifier/train_myClassifier.py" />
-        <option value="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/net/CTCRecognizer2.py" />
         <option value="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/train_CTCRec1.py" />
         <option value="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/train_CTCRec2.py" />
         <option value="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec/evalPB2.py" />
@@ -294,19 +281,22 @@
         <option value="$PROJECT_DIR$/Classification/ResNetV1/nets/ResNet_Utils.py" />
         <option value="$PROJECT_DIR$/Classification/ResNetV2/train_ResNetV2.py" />
         <option value="$PROJECT_DIR$/Classification/ResNetV2/nets/ResNet_Utils.py" />
-        <option value="$PROJECT_DIR$/Classification/ResNetV2/nets/ResNetV2.py" />
         <option value="$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1.py" />
         <option value="$PROJECT_DIR$/Classification/ResNetV1/models/ResNetV1_digit_M33-2000.xml" />
         <option value="$PROJECT_DIR$/Classification/ResNetV1/train_resNetV1.py" />
+        <option value="$PROJECT_DIR$/Classification/ResNetV2/nets/ResNetV2.py" />
+        <option value="$PROJECT_DIR$/Classification/ResNetV2/nets/ResNet_Utils_v2.py" />
+        <option value="$PROJECT_DIR$/Classification/ResNetV2/evalPB_Placeholder.py" />
+        <option value="$PROJECT_DIR$/Classification/ResNetV2/train_resNetV2.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="50" />
-    <option name="y" value="16" />
-    <option name="width" value="1943" />
-    <option name="height" value="950" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="251" />
+    <option name="y" value="42" />
+    <option name="width" value="1645" />
+    <option name="height" value="952" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -332,7 +322,14 @@
               <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
               <item name="Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="ResNetV1" type="462c0819:PsiDirectoryNode" />
+              <item name="ResNetV2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="ResNetV2" type="462c0819:PsiDirectoryNode" />
+              <item name="nets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
@@ -355,11 +352,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1\nets" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1\models\ckpt" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1\models\pb" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV2\models" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV2\models\ckpt" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV2\models\pb" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV2" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV2\nets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1\models" />
@@ -381,7 +378,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train_classifier_ResNetV1_Placehoder (1)">
+  <component name="RunManager" selected="Python.evalPB_Placeholder">
     <configuration name="evalPB1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNNCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -426,7 +423,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="evalPB1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="evalPB_Placeholder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNNCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -434,12 +431,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classification/ResNetV2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/evalPB1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classification/ResNetV2/evalPB_Placeholder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -514,43 +511,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train_selectRects" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DNNCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textRecognition/SelectRects_CTC" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textRecognition/SelectRects_CTC/train_selectRects.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.evalPB1" />
-      <item itemvalue="Python.train_selectRects" />
       <item itemvalue="Python.evalPB1 (1)" />
       <item itemvalue="Python.train_classifier_ResNetV1_Placehoder" />
       <item itemvalue="Python.train_classifier_ResNetV1_Placehoder (1)" />
       <item itemvalue="Python.train_ResNetV2" />
+      <item itemvalue="Python.evalPB_Placeholder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.evalPB_Placeholder" />
         <item itemvalue="Python.train_classifier_ResNetV1_Placehoder (1)" />
         <item itemvalue="Python.train_ResNetV2" />
         <item itemvalue="Python.train_classifier_ResNetV1_Placehoder" />
         <item itemvalue="Python.evalPB1 (1)" />
-        <item itemvalue="Python.train_selectRects" />
       </list>
     </recent_temporary>
   </component>
@@ -605,7 +579,7 @@
       <workItem from="1562325686965" duration="993000" />
       <workItem from="1562377281963" duration="18159000" />
       <workItem from="1562588653605" duration="5867000" />
-      <workItem from="1562668458515" duration="1175000" />
+      <workItem from="1562668458515" duration="5491000" />
     </task>
     <task id="LOCAL-00001" summary="specific label dict and add if __name__ == &quot;__main__&quot;">
       <created>1559710760596</created>
@@ -719,11 +693,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562668951119</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update accuarcy of resNetV1">
+      <created>1562672505924</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1562672505924</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="546206000" />
+    <option name="totallyTimeSpent" value="550522000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -735,15 +716,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="13" width="1554" height="760" extended-state="1" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19652407" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12868632" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.23654391" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.37677053" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3937677" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -782,53 +763,10 @@
     <MESSAGE value="update readme.md" />
     <MESSAGE value="replace constant with variable in CTCRecognizer" />
     <MESSAGE value="fix errors in resNetV1" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix errors in resNetV1" />
+    <MESSAGE value="update accuarcy of resNetV1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update accuarcy of resNetV1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_images/0[IFPID-1058][TAG-773LWF][STATE-WI][MAKE-][PREGION-125,286,248,134].jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/get_trans_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2860">
-          <caret line="130" column="50" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/get_filepath.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landmark/plateCorner/LprLocNet/train_landmark_saveFull.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/split_train_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/single_split_train_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/split_train_test_with_label.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1083,22 +1021,8 @@
     <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1_34.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/contrib/layers/python/layers/layers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="3323" selection-start-line="3323" selection-end-line="3323" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1.PNG">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/nets/ResNetV2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/train_classifier_ResNetV1_Placehoder.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1113,30 +1037,10 @@
     <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/models/ResNetV1_digit_M33-2000.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/train_ResNetV2.py">
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNet_Utils_v1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/nets/ResNet_Utils_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/train_resNetV1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="228">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
@@ -1147,18 +1051,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNet_Utils_v1.py">
+    <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV2/nets/shuffleNetV2_unit.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV2/nets/shuffleNetV2.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/nets/ResNetV2_unit.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/nets/ResNet_Utils_v22.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="125">
+          <caret line="53" column="16" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/contrib/layers/python/layers/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="3323" selection-start-line="3323" selection-end-line="3323" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/models/ResNetV2_digit_M3-1000.mapping">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/train_resNetV1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/nets/ResNet_Utils_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/nets/ResNetV2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/train_resNetV2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/evalPB_Placeholder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
-            <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <first_editor relative-caret-position="264">
+            <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           </first_editor>
           <second_editor />
         </state>
