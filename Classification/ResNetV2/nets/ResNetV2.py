@@ -77,6 +77,7 @@ class ResNetV2(object):
             net = inputs
             if self.indlude_root_block:  #从残差卷积前的前两个步骤开始inference
                 # 一开始我们在conv后并不进行bn和relu,因为其会在第一个残差unit中进行前置bn和relu
+                # 而本身在残差模块前的卷积操作不进行前置bn和relu
                 # 这也是ResNet的核心之一:前置激活
                 with slim.arg_scope([slim.conv2d],activation_fn=None, normalizer_fn=None):
                     net=conv2d_same(net,64,7,stride=2,scope="conv1")
@@ -151,7 +152,8 @@ class ResNetV2(object):
             # 'updates_collections:':tf.GraphKeys.UPDATE_OPS
         }
 
-        #resNetV2都是前置激活,不在卷积后进行bn和relu
+        #resNetV2虽然都是前置激活,但是在序列结构的网络下,该次卷积的后置激活就是下一次卷积的前置激活
+        #所以这里在卷积操作后仍然跟上batch_norm和relu
         with slim.arg_scope(
             [slim.conv2d],
             weights_regularizer=slim.l2_regularizer(weight_decay),
