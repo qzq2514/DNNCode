@@ -54,3 +54,9 @@ print(arr_shuffle2)
 print("------channel_shuffle2------")
 # arr_shuffle3=channel_shuffle2(arr_shuffle1,2)
 # print(arr_shuffle3)
+
+print("-----------------")
+a=[11,22,33,44,55,66]
+b="ABCDEF"
+for ind ,(aa,bb) in enumerate(zip(a,b)):
+    print(ind,aa,bb)

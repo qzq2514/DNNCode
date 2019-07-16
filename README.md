@@ -24,6 +24,7 @@ it may floats because of training steps 、learning rate and any other hyper par
 |  ShuffleNetV2  |     97.7    |    1.75|
 |  ResNeXt(C=1)  |     99.0    |    1.02|
 |  ResNeXt(C=32)  |     97.8    |    12.80|
+|  DenseNet  |     98.4    |    5.40|
 
 ## landmark:
 

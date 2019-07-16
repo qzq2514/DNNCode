@@ -65,6 +65,8 @@ class ShuffleNetV1(object):
         group_conv_list=[]
         channels_start =0
         # print("input_groups_channel:",input_groups_channel)
+
+        #组卷积实现方式1: for循环
         for gooup_id in range(group_num):
             channels_end=channels_start+input_groups_channel[gooup_id]
             cur_conv=self.conv2d(inputs[:,:,:,channels_start:channels_end],
@@ -72,8 +74,15 @@ class ShuffleNetV1(object):
                                      strides=strides,padding=padding,name=name+"_conv"+str(gooup_id))
             channels_start=channels_end
             group_conv_list.append(cur_conv)
-
         group_conv_result=tf.concat(group_conv_list,axis=-1)
+
+        #组卷积实现方式2: tf.split(未测试)
+        # inputs = tf.split(inputs, group_num, 3) #NHWC
+        # group_conv_list = [self.conv2d(part_input, kernel_size=[1,1],filters_num=output_channel,
+        #                        strides=strides,padding=padding,name=name+"_conv"+str(ind))
+        #            for ind,(part_input,output_channel) in enumerate(zip(inputs,output_groups_channel))]
+        # group_conv_result = tf.concat(group_conv_list, axis=-1)
+
         return group_conv_result
 
     def channel_shuffle(self,inputs,group_num,name):
