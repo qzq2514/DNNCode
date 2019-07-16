@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="762e0dfb-3742-4118-8df8-63a847a61910" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Classification/DenseNet/evalPB_Placeholder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/DenseNet/models/DenseNet-1000.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/DenseNet/models/DenseNet-1000.mapping" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/DenseNet/models/DenseNet-1000.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/DenseNet/nets/DenseNet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/DenseNet/nets/DenseNetForDigit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classification/DenseNet/train_DenseNet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/ShuffleNetV1/nets/ShuffleNetV1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/ShuffleNetV1/nets/ShuffleNetV1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="762e0dfb-3742-4118-8df8-63a847a61910" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,9 +299,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="117" />
-    <option name="y" value="73" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="163" />
+    <option name="y" value="41" />
     <option name="width" value="1617" />
     <option name="height" value="1014" />
   </component>
@@ -341,7 +329,15 @@
             <path>
               <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
-              <item name="textRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="DenseNet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="DenseNet" type="462c0819:PsiDirectoryNode" />
+              <item name="nets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -565,7 +561,7 @@
       <workItem from="1562588653605" duration="5867000" />
       <workItem from="1562668458515" duration="6225000" />
       <workItem from="1563159342774" duration="22571000" />
-      <workItem from="1563242831965" duration="10988000" />
+      <workItem from="1563242831965" duration="12076000" />
     </task>
     <task id="LOCAL-00001" summary="specific label dict and add if __name__ == &quot;__main__&quot;">
       <created>1559710760596</created>
@@ -700,11 +696,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563197647766</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="DenseNet">
+      <created>1563260763652</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1563260763652</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="584815000" />
+    <option name="totallyTimeSpent" value="585903000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -716,15 +719,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="547" y="38" width="1293" height="811" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.1735925" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.2097166" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.17503586" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.18696883" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.32253313" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3937677" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -766,7 +768,8 @@
     <MESSAGE value="update accuarcy of resNetV1" />
     <MESSAGE value="ResNetV2" />
     <MESSAGE value="ResNeXt" />
-    <option name="LAST_COMMIT_MESSAGE" value="ResNeXt" />
+    <MESSAGE value="DenseNet" />
+    <option name="LAST_COMMIT_MESSAGE" value="DenseNet" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/evalPB1.py">
