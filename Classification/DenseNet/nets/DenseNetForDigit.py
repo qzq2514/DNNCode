@@ -23,10 +23,6 @@ class DenseNetForDigit(object):
     # 其中原文中在每个Dense Unit的3x3卷积之前还有一个Bottleneck层,
     # 会将目前为止该Dense block的合并后的特征图固定到4xgrowth_rate(此时网络称为DenseNet-B)再送入3x3卷积
     # 这样保证不至于依次将之前的feature map合并后产生的特征图通道数过多
-    # 同时还有一个压缩层,在该后通过1x1卷积再将该Dense Block的特征图的通道数减少一定的倍数(此时网络称为DenseNet-C)
-    # 4xgrowth_rate的过渡层和压缩层都有的叫做DenseNet-BC
-    # 这里复现仅仅复现了DenseNet的核心:密集连接,去掉了Bottleneck层压缩层,这样在复现的难度上大大减少:无论在哪个Dense Block
-    # 的哪一层，只需要将之间所有Dense Block的所有层全部添加进去卷积就行
 
     def add_layer(self,layer_collection,name):
         #根据论文第三章的Composite function的一节,在本层依次进行bn,relu和3x3conv
@@ -45,8 +41,15 @@ class DenseNetForDigit(object):
         with tf.variable_scope(name) as sc:
             cur_bn=slim.batch_norm(layer_collection,scope="bn")
 
+            # 在原文中transition层中的1x1卷积还有一个参数,即压缩参数,表示输出通道数变为输入特征图通道数的倍数a(0-1之间)
+            # 即这里变为:num_outputs=a*layer_collection_channel(此时称为DenseNet-C)
             # 这里我们transition层中的1x1卷积不会改变通道数,注意在conv和pool之间要加一个relu,
             # 因为在参数空间内,convolution2d是被设置为不跟激活函数的
+
+            # 4xgrowth_rate的过渡层和带压缩参数的过渡层都有的叫做DenseNet-BC
+            # 这里复现仅仅复现了DenseNet的核心:密集连接,去掉了Bottleneck层压缩层,这样在复现的难度上大大减少:无论在哪个Dense Block
+            # 的哪一层，只需要将之间所有Dense Block的所有层全部添加进去卷积就行
+
             cur_conv=slim.convolution2d(cur_bn,num_outputs=layer_collection_channel,activation_fn=tf.nn.relu,
                                         kernel_size=1,stride=1,scope="conv")
             cuv_pool=slim.avg_pool2d(cur_conv,kernel_size=2,stride=2,scope="pool")
