@@ -9,7 +9,7 @@ import cv2
 import os
 
 
-model_path = 'models/pb/DenseNet-1000.pb'
+model_path = 'models/pb/DenseNetMy-1000.pb'
 eval_dir=   "D:/forTensorflow/charRecTrain/test/"
 label_map_path= "label_map.json"
 

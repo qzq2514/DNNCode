@@ -5,7 +5,7 @@ import tensorflow as tf
 import json
 from tensorflow.python.framework import graph_util
 # from nets import myCharClassifier
-from nets import DenseNetForDigit
+from nets import DenseNetForDigitmy
 
 train_dir="D:/forTensorflow/charRecTrain/train/"
 test_dir="D:/forTensorflow/charRecTrain/test/"
@@ -15,7 +15,7 @@ model_path="models/"
 pb_path=os.path.join(model_path,"pb/")
 ckpt_path=os.path.join(model_path,"ckpt/")
 
-model_name="DenseNet"
+model_name="DenseNetMy"
 
 support_image_extensions=[".jpg",".png",".jpeg",".bmp"]
 
@@ -36,6 +36,7 @@ input_height=28
 
 growth_rate=12
 net_depth=40
+compression=0.5
 
 def create_label_map(specific_dict=None):
     if specific_dict is not None:
@@ -134,8 +135,8 @@ def train():
     labels_placeholder=tf.placeholder(tf.int32,shape=[None],name="labels")
     is_training_placeholder = tf.placeholder_with_default(False, shape=(), name="is_training")
 
-    classModel=DenseNetForDigit.DenseNetForDigit(is_training=is_training_placeholder , num_classes=len(label_dict),
-                                               growth_rate=growth_rate, net_depth=net_depth)
+    classModel=DenseNetForDigitmy.DenseNetForDigitmy(is_training=is_training_placeholder , num_classes=len(label_dict),
+                                               growth_rate=growth_rate, net_depth=net_depth,compression=compression)
     preprocessed_inputs=classModel.preprocess(input_placeholder)
     logits=classModel.inference(preprocessed_inputs)
 
