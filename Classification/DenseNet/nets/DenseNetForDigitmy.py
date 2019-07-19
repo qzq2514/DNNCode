@@ -14,9 +14,7 @@ class DenseNetForDigitmy(object):
 
     def preprocess(self, inputs):
         # ResNet暂不需要做输入预处理
-        preprocessed_inputs = tf.to_float(inputs)
-        preprocessed_inputs = tf.subtract(preprocessed_inputs, 128.0)
-        preprocessed_inputs = tf.div(preprocessed_inputs, 128.0)
+        preprocessed_inputs = tf.tzv(preprocessed_inputs, 128.0)
         return preprocessed_inputs
 
     #在每个block内的每一层采用密集连接,即某层的输入是在该层之前且在该block内的所有层的输出的合并
@@ -52,7 +50,7 @@ class DenseNetForDigitmy(object):
             cuv_pool=slim.avg_pool2d(cur_conv,kernel_size=2,stride=2,scope="pool")
         return cuv_pool
 
-    #inputs:[batch_size,32,32,3]
+    #inputs:[batch_size,28,28,3]
     def inference(self, inputs):
         print("Using DenseNet L=40,K=12.....")
         with slim.arg_scope(self.DenseNet_arg_scope(is_training=self._is_training)):

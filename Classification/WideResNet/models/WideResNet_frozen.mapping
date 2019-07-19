@@ -1,0 +1,939 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="inputs" out_port_id="0"/>
+		<IR id="0" name="inputs" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="conv1/BiasAdd" out_port_id="0"/>
+		<IR id="1" name="conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit1/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="2" name="Mul1_2784/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit1/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="3" name="block1/unit1/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit1/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="4" name="block1/unit1/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit1/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="5" name="block1/unit1/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit1/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="6" name="block1/unit1/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit1/identity_branch/bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="7" name="Mul1_2712/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit1/identity_branch/bn/Relu" out_port_id="0"/>
+		<IR id="8" name="block1/unit1/identity_branch/bn/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit1/identity_branch/Conv/BiasAdd" out_port_id="0"/>
+		<IR id="9" name="block1/unit1/identity_branch/Conv/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/add" out_port_id="0"/>
+		<IR id="10" name="block1/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block1/unit2/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="11" name="Mul1_2892/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit2/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="12" name="block1/unit2/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit2/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="13" name="block1/unit2/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit2/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="14" name="block1/unit2/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit2/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="15" name="block1/unit2/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/add_1" out_port_id="0"/>
+		<IR id="16" name="block1/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block1/unit3/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="17" name="Mul1_2874/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit3/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="18" name="block1/unit3/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit3/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="19" name="block1/unit3/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit3/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="20" name="block1/unit3/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit3/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="21" name="block1/unit3/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/add_2" out_port_id="0"/>
+		<IR id="22" name="block1/add_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block1/unit4/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="23" name="Mul1_2928/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit4/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="24" name="block1/unit4/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit4/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="25" name="block1/unit4/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit4/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="26" name="block1/unit4/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit4/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="27" name="block1/unit4/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/add_3" out_port_id="0"/>
+		<IR id="28" name="block1/add_3" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block1/unit5/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="29" name="Mul1_2766/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit5/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="30" name="block1/unit5/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit5/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="31" name="block1/unit5/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit5/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="32" name="block1/unit5/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit5/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="33" name="block1/unit5/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/add_4" out_port_id="0"/>
+		<IR id="34" name="block1/add_4" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block1/unit6/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="35" name="Mul1_3180/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit6/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="36" name="block1/unit6/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit6/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="37" name="block1/unit6/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit6/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="38" name="block1/unit6/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit6/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="39" name="block1/unit6/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/add_5" out_port_id="0"/>
+		<IR id="40" name="block1/add_5" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block1/unit7/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="41" name="Mul1_3162/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit7/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="42" name="block1/unit7/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit7/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="43" name="block1/unit7/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit7/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="44" name="block1/unit7/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit7/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="45" name="block1/unit7/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/add_6" out_port_id="0"/>
+		<IR id="46" name="block1/add_6" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block1/unit8/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="48" name="block1/unit8/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit8/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="49" name="block1/unit8/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit8/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="50" name="block1/unit8/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit8/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="51" name="block1/unit8/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/add_7" out_port_id="0"/>
+		<IR id="52" name="block1/add_7" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block1/unit9/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="53" name="Mul1_3000/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit9/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="54" name="block1/unit9/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit9/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="55" name="block1/unit9/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit9/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="56" name="block1/unit9/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit9/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="57" name="block1/unit9/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/add_8" out_port_id="0"/>
+		<IR id="58" name="block1/add_8" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block1/unit10/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="59" name="Mul1_2847/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit10/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="60" name="block1/unit10/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit10/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="61" name="block1/unit10/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit10/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="62" name="block1/unit10/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit10/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="63" name="block1/unit10/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/add_9" out_port_id="0"/>
+		<IR id="64" name="block1/add_9" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block1/unit11/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="65" name="Mul1_2721/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit11/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="66" name="block1/unit11/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit11/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="67" name="block1/unit11/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit11/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="68" name="block1/unit11/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit11/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="69" name="block1/unit11/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/add_10" out_port_id="0"/>
+		<IR id="70" name="block1/add_10" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block1/unit12/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="71" name="Mul1_/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit12/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="72" name="block1/unit12/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit12/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="73" name="block1/unit12/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/unit12/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="74" name="block1/unit12/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit12/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="75" name="block1/unit12/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block1/add_11" out_port_id="0"/>
+		<IR id="76" name="block1/add_11" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block2/unit1/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="77" name="Mul1_2946/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit1/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="78" name="block2/unit1/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit1/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="79" name="block2/unit1/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit1/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="80" name="block2/unit1/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit1/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="81" name="block2/unit1/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit1/identity_branch/bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="82" name="Mul1_2829/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit1/identity_branch/bn/Relu" out_port_id="0"/>
+		<IR id="83" name="block2/unit1/identity_branch/bn/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit1/identity_branch/Conv/BiasAdd" out_port_id="0"/>
+		<IR id="84" name="block2/unit1/identity_branch/Conv/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/add" out_port_id="0"/>
+		<IR id="85" name="block2/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block2/unit2/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="86" name="Mul1_2811/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit2/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="87" name="block2/unit2/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit2/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="88" name="block2/unit2/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit2/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="90" name="block2/unit2/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/add_1" out_port_id="0"/>
+		<IR id="91" name="block2/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block2/unit3/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="92" name="Mul1_2973/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit3/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="94" name="block2/unit3/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit3/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="95" name="block2/unit3/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit3/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="96" name="block2/unit3/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/add_2" out_port_id="0"/>
+		<IR id="97" name="block2/add_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block2/unit4/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="98" name="Mul1_3225/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit4/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="99" name="block2/unit4/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit4/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="100" name="block2/unit4/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit4/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="101" name="block2/unit4/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit4/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="102" name="block2/unit4/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/add_3" out_port_id="0"/>
+		<IR id="103" name="block2/add_3" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block2/unit5/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="104" name="Mul1_2865/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit5/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="105" name="block2/unit5/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit5/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="106" name="block2/unit5/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit5/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="107" name="block2/unit5/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit5/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="108" name="block2/unit5/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/add_4" out_port_id="0"/>
+		<IR id="109" name="block2/add_4" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block2/unit6/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="110" name="Mul1_2685/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit6/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="111" name="block2/unit6/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit6/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="112" name="block2/unit6/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit6/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="113" name="block2/unit6/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit6/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="114" name="block2/unit6/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/add_5" out_port_id="0"/>
+		<IR id="115" name="block2/add_5" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block2/unit7/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="116" name="Mul1_2649/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit7/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="117" name="block2/unit7/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit7/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="118" name="block2/unit7/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit7/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="119" name="block2/unit7/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit7/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="120" name="block2/unit7/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit8/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="122" name="Mul1_3099/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit8/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="123" name="block2/unit8/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit8/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="124" name="block2/unit8/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit8/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="125" name="block2/unit8/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit8/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="126" name="block2/unit8/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/add_7" out_port_id="0"/>
+		<IR id="127" name="block2/add_7" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block2/unit9/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="128" name="Mul1_2982/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit9/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="129" name="block2/unit9/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit9/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="130" name="block2/unit9/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit9/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="131" name="block2/unit9/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit9/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="132" name="block2/unit9/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/add_8" out_port_id="0"/>
+		<IR id="133" name="block2/add_8" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block2/unit10/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="134" name="Mul1_2919/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit10/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="135" name="block2/unit10/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit10/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="136" name="block2/unit10/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit10/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="137" name="block2/unit10/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit10/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="138" name="block2/unit10/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/add_9" out_port_id="0"/>
+		<IR id="139" name="block2/add_9" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block2/unit11/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="140" name="Mul1_3216/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit11/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="141" name="block2/unit11/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit11/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="142" name="block2/unit11/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit11/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="143" name="block2/unit11/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit11/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="144" name="block2/unit11/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/add_10" out_port_id="0"/>
+		<IR id="145" name="block2/add_10" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block2/unit12/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="146" name="Mul1_2613/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit12/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="147" name="block2/unit12/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit12/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="148" name="block2/unit12/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit12/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="149" name="block2/unit12/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit12/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="150" name="block2/unit12/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/add_11" out_port_id="0"/>
+		<IR id="151" name="block2/add_11" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block3/unit1/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="152" name="Mul1_2856/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit1/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="153" name="block3/unit1/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit1/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="154" name="block3/unit1/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit1/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="155" name="block3/unit1/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit1/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="156" name="block3/unit1/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit1/identity_branch/bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="157" name="Mul1_2793/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit1/identity_branch/bn/Relu" out_port_id="0"/>
+		<IR id="158" name="block3/unit1/identity_branch/bn/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit1/identity_branch/Conv/BiasAdd" out_port_id="0"/>
+		<IR id="159" name="block3/unit1/identity_branch/Conv/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/add" out_port_id="0"/>
+		<IR id="160" name="block3/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block3/unit2/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="161" name="Mul1_3045/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit2/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="163" name="block3/unit2/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit2/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="164" name="block3/unit2/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit2/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="165" name="block3/unit2/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/add_1" out_port_id="0"/>
+		<IR id="166" name="block3/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block3/unit3/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="167" name="Mul1_2703/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit3/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="168" name="block3/unit3/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit3/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="169" name="block3/unit3/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit3/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="170" name="block3/unit3/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit3/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="171" name="block3/unit3/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/add_2" out_port_id="0"/>
+		<IR id="172" name="block3/add_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block3/unit4/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="173" name="Mul1_2820/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit4/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="174" name="block3/unit4/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit4/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="175" name="block3/unit4/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit4/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="176" name="block3/unit4/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit4/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="177" name="block3/unit4/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/add_3" out_port_id="0"/>
+		<IR id="178" name="block3/add_3" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block3/unit5/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="179" name="Mul1_2658/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit5/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="180" name="block3/unit5/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit5/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="181" name="block3/unit5/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit5/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="182" name="block3/unit5/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit5/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="183" name="block3/unit5/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/add_4" out_port_id="0"/>
+		<IR id="184" name="block3/add_4" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block3/unit6/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="185" name="Mul1_3261/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit6/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="186" name="block3/unit6/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit6/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="188" name="block3/unit6/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit6/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="189" name="block3/unit6/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/add_5" out_port_id="0"/>
+		<IR id="190" name="block3/add_5" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block3/unit7/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="191" name="Mul1_2676/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit7/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="192" name="block3/unit7/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit7/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="193" name="block3/unit7/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit7/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="194" name="block3/unit7/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit7/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="195" name="block3/unit7/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/add_6" out_port_id="0"/>
+		<IR id="196" name="block3/add_6" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block3/unit8/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="197" name="Mul1_2739/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit8/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="199" name="block3/unit8/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit8/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="200" name="block3/unit8/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit8/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="201" name="block3/unit8/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/add_7" out_port_id="0"/>
+		<IR id="202" name="block3/add_7" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block3/unit9/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="203" name="Mul1_3198/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit9/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="204" name="block3/unit9/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit9/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="205" name="block3/unit9/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit9/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="207" name="block3/unit9/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/add_8" out_port_id="0"/>
+		<IR id="208" name="block3/add_8" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block3/unit10/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="209" name="Mul1_2757/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit10/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="210" name="block3/unit10/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit10/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="212" name="block3/unit10/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit10/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="213" name="block3/unit10/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/add_9" out_port_id="0"/>
+		<IR id="214" name="block3/add_9" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block3/unit11/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="215" name="Mul1_3153/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit11/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="216" name="block3/unit11/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit11/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="217" name="block3/unit11/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit11/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="218" name="block3/unit11/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit11/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="219" name="block3/unit11/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/add_10" out_port_id="0"/>
+		<IR id="220" name="block3/add_10" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block3/unit12/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="221" name="Mul1_3081/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit12/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="222" name="block3/unit12/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit12/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="223" name="block3/unit12/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit12/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="224" name="block3/unit12/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit12/residual_branch/conv2/BiasAdd" out_port_id="0"/>
+		<IR id="225" name="block3/unit12/residual_branch/conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/add_11" out_port_id="0"/>
+		<IR id="226" name="block3/add_11" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="global_avg_pool/bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="227" name="Mul1_3144/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="global_avg_pool/bn/Relu" out_port_id="0"/>
+		<IR id="228" name="global_avg_pool/bn/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="global_avg_pool" out_port_id="0"/>
+		<IR id="229" name="global_avg_pool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fc/BiasAdd" out_port_id="0"/>
+		<IR id="230" name="fc/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="squeeze" out_port_id="0"/>
+		<IR id="232" name="squeeze" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="softmax_output" out_port_id="0"/>
+		<IR id="233" name="Softmax" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="Softmax" out_port_id="0"/>
+		<IR id="233" name="Softmax" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block1/unit8/residual_branch/bn1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="47" name="Mul1_3243/Fused_Mul_/FusedScaleShift_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block2/unit2/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="89" name="block2/unit2/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/unit3/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="93" name="block2/unit3/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block2/add_6" out_port_id="0"/>
+		<IR id="121" name="block2/add_6" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="block3/unit2/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="162" name="block3/unit2/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit6/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="187" name="block3/unit6/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="block3/unit8/residual_branch/bn1/Relu" out_port_id="0"/>
+		<IR id="198" name="block3/unit8/residual_branch/bn1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit9/residual_branch/bn2/Relu" out_port_id="0"/>
+		<IR id="206" name="block3/unit9/residual_branch/bn2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="block3/unit10/residual_branch/bn2/FusedBatchNorm" out_port_id="0"/>
+		<IR id="211" name="block3/unit10/residual_branch/conv1/Conv2D" out_port_id="3"/>
+	</map>
+</mapping>

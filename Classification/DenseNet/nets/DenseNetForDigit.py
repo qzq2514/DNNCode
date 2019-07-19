@@ -55,7 +55,7 @@ class DenseNetForDigit(object):
             cuv_pool=slim.avg_pool2d(cur_conv,kernel_size=2,stride=2,scope="pool")
         return cuv_pool
 
-    #inputs:[batch_size,32,32,3]
+    #inputs:[batch_size,28,28,3]
     def inference(self, inputs):
         print("Using DenseNet L=40,K=12.....")
         with slim.arg_scope(self.DenseNet_arg_scope(is_training=self._is_training)):

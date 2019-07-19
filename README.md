@@ -26,6 +26,7 @@ it may floats because of training steps 、learning rate and any other hyper par
 |  ResNeXt(C=32)  |     97.8    |    12.80|
 |  DenseNet  |     98.4    |    5.40|
 |  DenseNet(My)  |     99.3    |    3.40|
+|  WideResNet    |     98.7    |    4.50|
 
 ## landmark:
 
