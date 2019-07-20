@@ -16,6 +16,9 @@ def freezing_graph(checkpoint, frozen_path):
   graph = tf.Graph()
   with graph.as_default():
     # 正好也可以通过此方式将原模型中所有的is_training置为False
+    # 这里主要是将slim.dropout中的is_training置为False,因为在构建模型的时候
+    # 仅仅slim.batch_norm是使用is_training参数的(以后可以使用方式二构建参数空间,
+    # 详见WideResNet.py第119行之后)
     with slim.arg_scope([slim.batch_norm, slim.dropout], is_training=False):
 
       input_tensor = tf.placeholder(tf.float32, [None,input_height, input_width ,3],name="inputs")

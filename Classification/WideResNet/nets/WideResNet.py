@@ -115,3 +115,11 @@ class WideResNet(object):
             with slim.arg_scope([slim.batch_norm],**batch_norm_params) :
                 with slim.arg_scope([slim.avg_pool2d],padding="SAME")  as arg_sc:
                     return arg_sc
+
+            #最好使用这种方式,因为openvino转换是不支持dropout层,
+            #这种参数空间的方式能保证is_training参数对slim.dropout也有效
+            #这种方式生成的模型能直接转openvino,不用在调用freezing_graph.py
+            # with slim.arg_scope([slim.batch_norm], **batch_norm_params):
+            #     with slim.arg_scope([slim.dropout],is_training=is_training):
+            #         with slim.arg_scope([slim.avg_pool2d], padding="SAME")  as arg_sc:
+            #             return arg_sc
