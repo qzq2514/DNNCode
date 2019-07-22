@@ -1,0 +1,323 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="inputs" out_port_id="0"/>
+		<IR id="0" name="inputs" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="conv1/BiasAdd" out_port_id="0"/>
+		<IR id="1" name="conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv1/Relu" out_port_id="0"/>
+		<IR id="2" name="conv1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="max_pool1/MaxPool" out_port_id="0"/>
+		<IR id="3" name="max_pool1/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire2/squeeze/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="4" name="fire2/squeeze/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire2/squeeze/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="4" name="fire2/squeeze/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire2/squeeze/Relu" out_port_id="0"/>
+		<IR id="5" name="fire2/squeeze/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire2/expand/1x1/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="6" name="fire2/expand/1x1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire2/expand/1x1/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="6" name="fire2/expand/1x1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire2/expand/1x1/Relu" out_port_id="0"/>
+		<IR id="7" name="fire2/expand/1x1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire2/expand/3x3/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="8" name="fire2/expand/3x3/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire2/expand/3x3/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="8" name="fire2/expand/3x3/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire2/expand/3x3/Relu" out_port_id="0"/>
+		<IR id="9" name="fire2/expand/3x3/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire2/concat" out_port_id="0"/>
+		<IR id="10" name="fire2/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="fire3/squeeze/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="11" name="fire3/squeeze/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire3/squeeze/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="11" name="fire3/squeeze/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire3/squeeze/Relu" out_port_id="0"/>
+		<IR id="12" name="fire3/squeeze/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire3/expand/1x1/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="13" name="fire3/expand/1x1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire3/expand/1x1/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="13" name="fire3/expand/1x1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire3/expand/1x1/Relu" out_port_id="0"/>
+		<IR id="14" name="fire3/expand/1x1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire3/expand/3x3/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="15" name="fire3/expand/3x3/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire3/expand/3x3/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="15" name="fire3/expand/3x3/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire3/expand/3x3/Relu" out_port_id="0"/>
+		<IR id="16" name="fire3/expand/3x3/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire3/concat" out_port_id="0"/>
+		<IR id="17" name="fire3/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="fire4/squeeze/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="18" name="fire4/squeeze/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire4/squeeze/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="18" name="fire4/squeeze/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire4/squeeze/Relu" out_port_id="0"/>
+		<IR id="19" name="fire4/squeeze/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire4/expand/1x1/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="20" name="fire4/expand/1x1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire4/expand/1x1/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="20" name="fire4/expand/1x1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire4/expand/1x1/Relu" out_port_id="0"/>
+		<IR id="21" name="fire4/expand/1x1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire4/expand/3x3/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="22" name="fire4/expand/3x3/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire4/expand/3x3/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="22" name="fire4/expand/3x3/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire4/expand/3x3/Relu" out_port_id="0"/>
+		<IR id="23" name="fire4/expand/3x3/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire4/concat" out_port_id="0"/>
+		<IR id="24" name="fire4/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="max_pool4/MaxPool" out_port_id="0"/>
+		<IR id="25" name="max_pool4/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire5/squeeze/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="26" name="fire5/squeeze/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire5/squeeze/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="26" name="fire5/squeeze/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire5/squeeze/Relu" out_port_id="0"/>
+		<IR id="27" name="fire5/squeeze/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire5/expand/1x1/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="28" name="fire5/expand/1x1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire5/expand/1x1/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="28" name="fire5/expand/1x1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire5/expand/1x1/Relu" out_port_id="0"/>
+		<IR id="29" name="fire5/expand/1x1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire5/expand/3x3/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="30" name="fire5/expand/3x3/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire5/expand/3x3/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="30" name="fire5/expand/3x3/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire5/expand/3x3/Relu" out_port_id="0"/>
+		<IR id="31" name="fire5/expand/3x3/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire5/concat" out_port_id="0"/>
+		<IR id="32" name="fire5/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="fire6/squeeze/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="33" name="fire6/squeeze/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire6/squeeze/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="33" name="fire6/squeeze/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire6/expand/1x1/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="35" name="fire6/expand/1x1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire6/expand/1x1/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="35" name="fire6/expand/1x1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire6/expand/1x1/Relu" out_port_id="0"/>
+		<IR id="36" name="fire6/expand/1x1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire6/expand/3x3/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="37" name="fire6/expand/3x3/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire6/expand/3x3/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="37" name="fire6/expand/3x3/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire6/expand/3x3/Relu" out_port_id="0"/>
+		<IR id="38" name="fire6/expand/3x3/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire6/concat" out_port_id="0"/>
+		<IR id="39" name="fire6/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="fire7/squeeze/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="40" name="fire7/squeeze/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire7/squeeze/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="40" name="fire7/squeeze/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire7/squeeze/Relu" out_port_id="0"/>
+		<IR id="41" name="fire7/squeeze/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire7/expand/1x1/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="42" name="fire7/expand/1x1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire7/expand/1x1/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="42" name="fire7/expand/1x1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire7/expand/1x1/Relu" out_port_id="0"/>
+		<IR id="43" name="fire7/expand/1x1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire7/expand/3x3/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="44" name="fire7/expand/3x3/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire7/expand/3x3/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="44" name="fire7/expand/3x3/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire7/expand/3x3/Relu" out_port_id="0"/>
+		<IR id="45" name="fire7/expand/3x3/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire7/concat" out_port_id="0"/>
+		<IR id="46" name="fire7/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="fire8/squeeze/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="47" name="fire8/squeeze/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire8/squeeze/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="47" name="fire8/squeeze/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire8/squeeze/Relu" out_port_id="0"/>
+		<IR id="48" name="fire8/squeeze/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire8/expand/1x1/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="49" name="fire8/expand/1x1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire8/expand/1x1/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="49" name="fire8/expand/1x1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire8/expand/1x1/Relu" out_port_id="0"/>
+		<IR id="50" name="fire8/expand/1x1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire8/expand/3x3/BatchNorm/cond/Merge" out_port_id="0"/>
+		<IR id="51" name="fire8/expand/3x3/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire8/expand/3x3/BatchNorm/cond/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="51" name="fire8/expand/3x3/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fire8/expand/3x3/Relu" out_port_id="0"/>
+		<IR id="52" name="fire8/expand/3x3/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire8/concat" out_port_id="0"/>
+		<IR id="53" name="fire8/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv10/BiasAdd" out_port_id="0"/>
+		<IR id="54" name="conv10/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="global_pool" out_port_id="0"/>
+		<IR id="55" name="global_pool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="squeeze" out_port_id="0"/>
+		<IR id="56" name="squeeze" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="softmax_output" out_port_id="0"/>
+		<IR id="57" name="Softmax" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="Softmax" out_port_id="0"/>
+		<IR id="57" name="Softmax" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fire6/squeeze/Relu" out_port_id="0"/>
+		<IR id="34" name="fire6/squeeze/Relu" out_port_id="1"/>
+	</map>
+</mapping>

@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="762e0dfb-3742-4118-8df8-63a847a61910" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Classification/SqueezeNet/evalPB_Placeholder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/SqueezeNet/freezing_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/SqueezeNet/label_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/SqueezeNet/nets/SqueezeNet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/SqueezeNet/nets/SqueezeNet_Digit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/SqueezeNet/nets/fire_moudle.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/SqueezeNet/nets/squeezeNet.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/SqueezeNet/nets/squeezeNet_para.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classification/SqueezeNet/train_SqueezeNet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/WideResNet/freezing_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/WideResNet/freezing_graph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classification/WideResNet/label_map.json" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/WideResNet/label_map.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classification/WideResNet/nets/WideResNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classification/WideResNet/nets/WideResNet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +31,7 @@
     <SUITE FILE_PATH="coverage/DNNCode$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1560659067902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification" />
     <SUITE FILE_PATH="coverage/DNNCode$train_myClassifier.coverage" NAME="train_myClassifier Coverage Results" MODIFIED="1560220495766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/myDigitClassifier" />
     <SUITE FILE_PATH="coverage/DNNCode$evalCKPT_Placeholder.coverage" NAME="evalCKPT_Placeholder Coverage Results" MODIFIED="1561353448560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV2" />
+    <SUITE FILE_PATH="coverage/DNNCode$train_SqueezeNet.coverage" NAME="train_SqueezeNet Coverage Results" MODIFIED="1563793699169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/SqueezeNet" />
     <SUITE FILE_PATH="coverage/DNNCode$train_CTCRec3_bn_dropout.coverage" NAME="train_CTCRec3_bn_dropout Coverage Results" MODIFIED="1561908007771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_RNN_CTCLoss_plateRec" />
     <SUITE FILE_PATH="coverage/DNNCode$eval_CTC_pharse.coverage" NAME="eval_CTC_pharse Coverage Results" MODIFIED="1561103635024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
     <SUITE FILE_PATH="coverage/DNNCode$LprNetRec_org.coverage" NAME="LprNetRec_org Coverage Results" MODIFIED="1560777574777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet/net" />
@@ -71,7 +80,7 @@
     <SUITE FILE_PATH="coverage/DNNCode$my_train_LprNetRec.coverage" NAME="my_train_LprNetRec Coverage Results" MODIFIED="1560776526224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/CNN_CTCLoss_LprNet" />
     <SUITE FILE_PATH="coverage/DNNCode$train.coverage" NAME="train Coverage Results" MODIFIED="1560830111110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textRecognition/VerificationCodeRec" />
     <SUITE FILE_PATH="coverage/DNNCode$evalPB_NoPlace2.coverage" NAME="evalPB_NoPlace2 Coverage Results" MODIFIED="1559633233657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV1" />
-    <SUITE FILE_PATH="coverage/DNNCode$evalPB_Placeholder__1_.coverage" NAME="evalPB_Placeholder (1) Coverage Results" MODIFIED="1563541436385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/WideResNet" />
+    <SUITE FILE_PATH="coverage/DNNCode$evalPB_Placeholder__1_.coverage" NAME="evalPB_Placeholder (1) Coverage Results" MODIFIED="1563793629293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/WideResNet" />
     <SUITE FILE_PATH="coverage/DNNCode$stn_model.coverage" NAME="stn_model Coverage Results" MODIFIED="1560222345523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LPRLocNet/kerasCode" />
     <SUITE FILE_PATH="coverage/DNNCode$DenseNet.coverage" NAME="DenseNet Coverage Results" MODIFIED="1563370548602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/DenseNet/nets" />
     <SUITE FILE_PATH="coverage/DNNCode$train_landmark_saveFull.coverage" NAME="train_landmark_saveFull Coverage Results" MODIFIED="1560238704056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/landmark/plateCorner/LprLocNet" />
@@ -112,6 +121,7 @@
     <SUITE FILE_PATH="coverage/DNNCode$train_classifier_ResNetV1_Placehoder2.coverage" NAME="train_classifier_ResNetV1_Placehoder2 Coverage Results" MODIFIED="1560134106695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ResNetV1" />
     <SUITE FILE_PATH="coverage/DNNCode$demo.coverage" NAME="demo Coverage Results" MODIFIED="1563243293825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DNNCode$train_classifier_MobileNetV2_Placehoder.coverage" NAME="train_classifier_MobileNetV2_Placehoder Coverage Results" MODIFIED="1561345234648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/MobileNetV2" />
+    <SUITE FILE_PATH="coverage/DNNCode$evalPB_Placeholder__2_.coverage" NAME="evalPB_Placeholder (2) Coverage Results" MODIFIED="1563794239407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/SqueezeNet" />
     <SUITE FILE_PATH="coverage/DNNCode$train_resNetV2.coverage" NAME="train_resNetV2 Coverage Results" MODIFIED="1563189236900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ResNetV2" />
     <SUITE FILE_PATH="coverage/DNNCode$ResNet_Utils.coverage" NAME="ResNet_Utils Coverage Results" MODIFIED="1560141335514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/ResNetV1/nets" />
     <SUITE FILE_PATH="coverage/DNNCode$bn_train.coverage" NAME="bn_train Coverage Results" MODIFIED="1559565075391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/batch_mnist" />
@@ -160,46 +170,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classification/WideResNet/nets/WideResNet.py">
+        <entry file="file://$PROJECT_DIR$/Classification/SqueezeNet/nets/SqueezeNet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="116" column="30" lean-forward="true" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="831">
+              <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classification/WideResNet/train_WideResNet.py">
+        <entry file="file://$PROJECT_DIR$/Classification/SqueezeNet/evalPB_Placeholder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="36" column="12" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-198">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Classification/WideResNet/freezing_graph.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="301">
+                <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/contrib/layers/python/layers/layers.py">
+        <entry file="file://$PROJECT_DIR$/Classification/SqueezeNet/nets/SqueezeNet_Digit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="1561" column="4" selection-start-line="1561" selection-start-column="4" selection-end-line="1561" selection-end-column="4" />
+            <state relative-caret-position="720">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classification/SqueezeNet/train_SqueezeNet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3938">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -237,7 +253,6 @@
       <find>tf.pad</find>
       <find>concat</find>
       <find>avg_pool2d</find>
-      <find>convolution2d</find>
       <find>bottleneck</find>
       <find>transition</find>
       <find>inference</find>
@@ -245,6 +260,7 @@
       <find>makedirs</find>
       <find>num_hidden</find>
       <find>softmax_output</find>
+      <find>convolution2d</find>
     </findStrings>
     <replaceStrings>
       <replace>corners</replace>
@@ -258,12 +274,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Classification/ShuffleNetV2/train_shuffleNetV2.py" />
-        <option value="$PROJECT_DIR$/Classification/ShuffleNetV2/evalPB_Placeholder.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_landmark_full.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LprLocNet/test_landmark_full_evalPB.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LprLocNet/train_landmark_saveFull.py" />
-        <option value="$PROJECT_DIR$/landmark/plateCorner/LprLocNet/train_landmark_saveWeights.py" />
         <option value="$PROJECT_DIR$/tools/split_train_test_with_label.py" />
         <option value="$PROJECT_DIR$/textRecognition/SelectRects_CTC/load.py" />
         <option value="$PROJECT_DIR$/textRecognition/SelectRects_CTC/net/CTCRecognizer_NoRNN.py" />
@@ -304,19 +314,25 @@
         <option value="$PROJECT_DIR$/Classification/DenseNet/nets/DenseNetForDigit.py" />
         <option value="$PROJECT_DIR$/Classification/DenseNet/nets/DenseNetForDigitmy.py" />
         <option value="$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/freezing_graph.py" />
-        <option value="$PROJECT_DIR$/Classification/WideResNet/evalPB_Placeholder.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Classification/WideResNet/train_WideResNet.py" />
         <option value="$PROJECT_DIR$/Classification/WideResNet/nets/WideResNet.py" />
         <option value="$PROJECT_DIR$/Classification/WideResNet/freezing_graph.py" />
+        <option value="$PROJECT_DIR$/Classification/SqueezeNet/train_WideResNet.py" />
+        <option value="$PROJECT_DIR$/Classification/SqueezeNet/nets/WideResNet.py" />
+        <option value="$PROJECT_DIR$/Classification/SqueezeNet/nets/SqueezeNet_Digit.py" />
+        <option value="$PROJECT_DIR$/Classification/WideResNet/evalPB_Placeholder.py" />
+        <option value="$PROJECT_DIR$/Classification/SqueezeNet/train_SqueezeNet.py" />
+        <option value="$PROJECT_DIR$/Classification/SqueezeNet/nets/SqueezeNet.py" />
+        <option value="$PROJECT_DIR$/Classification/SqueezeNet/evalPB_Placeholder.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="35" />
-    <option name="y" value="41" />
-    <option name="width" value="1884" />
-    <option name="height" value="1104" />
+    <option name="x" value="557" />
+    <option name="y" value="405" />
+    <option name="width" value="1823" />
+    <option name="height" value="999" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -326,7 +342,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -343,22 +358,13 @@
               <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
               <item name="Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="WideResNet" type="462c0819:PsiDirectoryNode" />
+              <item name="SqueezeNet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
               <item name="Classification" type="462c0819:PsiDirectoryNode" />
               <item name="WideResNet" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DNNCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="WideResNet" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="pb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DNNCode" type="b2602c69:ProjectViewProjectNode" />
@@ -376,6 +382,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,19 +393,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\SqueezeNet\nets" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\WideResNet\nets" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\WideResNet\models" />
+      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\WideResNet" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNeXt\models\pb" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ResNetV1\models" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\ShuffleNetV2\models\ckpt" />
       <recent name="P:\WorkSpace\myGithub\DNNCode\textRecognition\CNN_CTCLoss_LprNet" />
       <recent name="P:\WorkSpace\myGithub\DNNCode" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\WideResNet\nets" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\WideResNet\models" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\WideResNet" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\WideResNet\models\ckpt" />
-      <recent name="P:\WorkSpace\myGithub\DNNCode\Classification\WideResNet\models\pb" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -413,7 +420,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train_WideResNet">
+  <component name="RunManager" selected="Python.evalPB_Placeholder (2)">
     <configuration name="evalPB_Placeholder (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNNCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -436,7 +443,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="evalPB_Placeholder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="evalPB_Placeholder (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNNCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -444,12 +451,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classification/DenseNet" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classification/SqueezeNet" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classification/DenseNet/evalPB_Placeholder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classification/SqueezeNet/evalPB_Placeholder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -480,7 +487,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train_DenseNet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="train_SqueezeNet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNNCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -488,12 +495,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classification/DenseNet" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classification/SqueezeNet" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classification/DenseNet/train_DenseNet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classification/SqueezeNet/train_SqueezeNet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -525,19 +532,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.train_DenseNet" />
-      <item itemvalue="Python.evalPB_Placeholder" />
       <item itemvalue="Python.train_WideResNet" />
       <item itemvalue="Python.evalPB_Placeholder (1)" />
       <item itemvalue="Python.freezing_graph" />
+      <item itemvalue="Python.train_SqueezeNet" />
+      <item itemvalue="Python.evalPB_Placeholder (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.evalPB_Placeholder (2)" />
+        <item itemvalue="Python.train_SqueezeNet" />
+        <item itemvalue="Python.evalPB_Placeholder (1)" />
         <item itemvalue="Python.train_WideResNet" />
         <item itemvalue="Python.freezing_graph" />
-        <item itemvalue="Python.evalPB_Placeholder (1)" />
-        <item itemvalue="Python.evalPB_Placeholder" />
-        <item itemvalue="Python.train_DenseNet" />
       </list>
     </recent_temporary>
   </component>
@@ -601,7 +608,10 @@
       <workItem from="1563422236351" duration="4273000" />
       <workItem from="1563438073742" duration="11000" />
       <workItem from="1563520683635" duration="12388000" />
-      <workItem from="1563628973309" duration="683000" />
+      <workItem from="1563628973309" duration="738000" />
+      <workItem from="1563706419415" duration="7000" />
+      <workItem from="1563774160385" duration="620000" />
+      <workItem from="1563789903290" duration="4537000" />
     </task>
     <task id="LOCAL-00001" summary="specific label dict and add if __name__ == &quot;__main__&quot;">
       <created>1559710760596</created>
@@ -778,11 +788,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563541988606</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="is_training for slim.batch_norm">
+      <created>1563629693076</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1563629693076</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="608395000" />
+    <option name="totallyTimeSpent" value="613614000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -797,12 +814,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.20040214" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.15616623" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.17503586" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.26062322" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.25070822" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3937677" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -849,47 +866,10 @@
     <MESSAGE value="Comment for Bottleneck layers and Compression layers of DenseNet" />
     <MESSAGE value="my understanding for DenseNet" />
     <MESSAGE value="WideResNet" />
-    <option name="LAST_COMMIT_MESSAGE" value="WideResNet" />
+    <MESSAGE value="is_training for slim.batch_norm" />
+    <option name="LAST_COMMIT_MESSAGE" value="is_training for slim.batch_norm" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/nets/ResNetV2_unit.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNet_Utils_v1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ResNetV1/nets/ResNetV1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/contextlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ResNeXt/nets/ResNeXt_cifar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="108" column="36" selection-start-line="108" selection-start-column="36" selection-end-line="108" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/train_resNetV2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Classification/ResNetV2/nets/ResNet_Utils_v2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -1023,13 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/python/ops/random_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/textRecognition/RNN_CTCLoss_plateRec/train_CTCRec1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1133,23 +1106,6 @@
     <entry file="file://$PROJECT_DIR$/Classification/WideResNet/models/WideResNet_frozen.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/WideResNet/evalPB_Placeholder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="279">
-            <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/core/protobuf/saver_pb2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
@@ -1157,40 +1113,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/contrib/layers/python/layers/layers.py">
+    <entry file="file://$PROJECT_DIR$/Classification/WideResNet/freezing_graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="1561" column="4" selection-start-line="1561" selection-start-column="4" selection-end-line="1561" selection-end-column="4" />
+        <state relative-caret-position="290">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/python/ops/random_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classification/WideResNet/train_WideResNet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="12" />
+        <state relative-caret-position="399">
+          <caret line="39" column="15" lean-forward="true" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV2/evalPB_Placeholder.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/ShuffleNetV2/nets/ShuffleNetV2ForDigit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2772">
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classification/WideResNet/nets/WideResNet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="116" column="30" lean-forward="true" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
+        <state relative-caret-position="-330">
+          <caret line="47" column="27" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="27" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/WideResNet/freezing_graph.py">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python35TF/Lib/site-packages/tensorflow/contrib/layers/python/layers/layers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="140">
+          <caret line="2363" column="4" selection-start-line="2363" selection-start-column="4" selection-end-line="2363" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/WideResNet/evalPB_Placeholder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/SqueezeNet/nets/SqueezeNet_Digit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/SqueezeNet/train_SqueezeNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3938">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="33" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/SqueezeNet/nets/SqueezeNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/SqueezeNet/evalPB_Placeholder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="301">
+            <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
