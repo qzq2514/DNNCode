@@ -28,6 +28,7 @@ it may floats because of training steps 、learning rate and any other hyper par
 |  DenseNet(My)  |     99.3    |    3.40|
 |  WideResNet    |     98.7    |    4.50|
 |  SqueezeNet    |     98.8    |    0.67|
+|  SENet    |     97.8    |    2.8|
 
 ## landmark:
 

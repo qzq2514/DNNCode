@@ -151,7 +151,7 @@ class ResNeXt_cifar(object):
 
         #resNetV2都是前置激活,不在卷积后进行bn和relu
         with slim.arg_scope(
-            [slim.conv2d],
+            [slim.convolution2d],
             weights_regularizer=slim.l2_regularizer(weight_decay),
             weights_initializer=slim.variance_scaling_initializer(),
             activation_fn=tf.nn.relu,
