@@ -29,6 +29,7 @@ it may floats because of training steps 、learning rate and any other hyper par
 |  WideResNet    |     98.7    |    4.50|
 |  SqueezeNet    |     98.8    |    0.67|
 |  SENet    |     97.8    |    2.8|
+|  MobileNetV3    |     99.2    |    1.3|
 
 ## landmark:
 
