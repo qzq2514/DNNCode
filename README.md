@@ -41,4 +41,8 @@ it may floats because of training steps 、learning rate and any other hyper par
 ![](https://github.com/qzq2514/ImageForGithubMakdown/blob/master/DNNCode/landmark4.PNG) 
 
 
+## text recognition:
 
+### CTC Loss - base
+![](https://github.com/qzq2514/ImageForGithubMakdown/blob/master/Patents/SecondPatent/CTCRec_res1.PNG)
+![](https://github.com/qzq2514/ImageForGithubMakdown/blob/master/Patents/SecondPatent/CTCRec_res2.PNG)
