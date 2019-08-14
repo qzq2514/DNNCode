@@ -1,0 +1,6 @@
+model_checkpoint_path: "CTC_CA_NoRNN_BN_dropout-12800"
+all_model_checkpoint_paths: "CTC_CA_NoRNN_BN_dropout-12000"
+all_model_checkpoint_paths: "CTC_CA_NoRNN_BN_dropout-12200"
+all_model_checkpoint_paths: "CTC_CA_NoRNN_BN_dropout-12400"
+all_model_checkpoint_paths: "CTC_CA_NoRNN_BN_dropout-12600"
+all_model_checkpoint_paths: "CTC_CA_NoRNN_BN_dropout-12800"
