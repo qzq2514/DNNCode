@@ -1,12 +1,13 @@
 import os
 
-org_image_root="D:/forTensorflow/LprNet_CTCLoss_ISR"
-dst_txt_label_root="D:/forTensorflow/LprNet_CTCLoss_ISR/txt_labels"
+org_image_root="D:/forTensorflow/stackChars/stackChars2Num_all"
+dst_txt_label_root=org_image_root+"_txt_labels"
 
 image_types=["train","test"]
 
 for image_type in image_types:
-    org_image_dir = os.path.join(org_image_root,image_type)
+    # org_image_dir = os.path.join(org_image_root,image_type)
+    org_image_dir = org_image_root+"_"+image_type
     dst_txt_label_dir = os.path.join(dst_txt_label_root, image_type)
 
     if not os.path.exists(dst_txt_label_dir):

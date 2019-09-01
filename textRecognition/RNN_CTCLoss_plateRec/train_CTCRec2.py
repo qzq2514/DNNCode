@@ -42,36 +42,6 @@ def get_txt_paths(txt_dir):
         txt_paths.append(txt_path)
     return txt_paths
 
-def next_batch(is_random_sample,indices,image_paths,labels):
-    if is_random_sample:
-        indices=np.random.choice(len(image_paths),batch_size)
-    elif indices==None:
-        print("Please assign indices in the mode of random sampling!")
-        return None,None
-    try:
-        batch_image_paths=image_paths[indices]
-        batch_labels=labels[indices]
-    except Exception as e:
-        print("list index out of range while next_batch!")
-        return None,None
-
-    batch_images_data=[]
-    for image_file_path in batch_image_paths:
-        image=cv2.imread(image_file_path)
-
-        image_resized=cv2.resize(image,(input_width,input_height))
-        batch_images_data.append(image_resized)
-
-    batch_images_transpose = np.transpose(batch_images_data, axes=[0, 2, 1,3])
-    batch_images_transpose=np.array(batch_images_transpose)
-
-    sparse_batch_labels=get_sparse_labels(batch_labels)
-
-    seq_len = np.ones(batch_size) * 120
-
-    return batch_images_transpose,sparse_batch_labels,batch_labels,seq_len
-
-
 def tf_read_iamges(txt_file_paths):
     txt_path = tf.train.string_input_producer(txt_file_paths)
 
@@ -104,10 +74,12 @@ def get_sparse_labels(sequences):
    for index, seq in enumerate(sequences):
       indices.extend(zip([index] * len(seq), range(len(seq))))
       seq=seq.decode('utf-8')
+      print("seq:",seq)
       values.extend(seq)
 
    indices = np.asarray(indices, dtype=np.int64)
    values = np.asarray(values, dtype=np.int64)
+   print("values:",values)
    shape = np.asarray([len(sequences), np.asarray(indices).max(0)[1] + 1], dtype=np.int64)
    return indices, values, shape
 
@@ -140,44 +112,6 @@ def decode_a_seq(indexes, spars_tensor):
       str = char_set[str_id]
       decoded.append(str)
    return decoded
-
-def get_accuarcy1(decode_predictions_, no_parse_labels):
-    total_num=len(no_parse_labels)
-    correct_num=0
-    for ind,val in enumerate(decode_predictions_):
-        pred_number = ''
-        for code in val:
-            pred_number += char_set[code]
-        pred_number=pred_number.strip("#")
-        is_correct=pred_number==no_parse_labels[ind]
-        if is_correct:
-            correct_num+=1
-        print("{}:{}------>{}".format(is_correct,no_parse_labels[ind],pred_number))
-    return correct_num/total_num
-
-def get_accuarcy2(decoded_logits, sparse_labels):
-    try:
-        sparse_labels_list = decode_sparse_tensor(sparse_labels)
-        decoded_list = decode_sparse_tensor(decoded_logits)
-        true_numer = 0
-
-        if len(decoded_list) != len(sparse_labels_list):
-          print("No match :{}--->{}".format(len(sparse_labels_list),len(decoded_list)))
-          return None  # edit_distance起作用
-
-        for idx, pred_number in enumerate(decoded_list):
-          groundTruth_number = sparse_labels_list[idx]
-          cur_correct = (pred_number == groundTruth_number)
-          info_str = "{}:{}-({}) <-------> {}-({})". \
-             format(cur_correct, groundTruth_number, len(groundTruth_number), pred_number, len(pred_number))
-          print(info_str)
-          if cur_correct:
-             true_numer = true_numer + 1
-        accuary = true_numer * 1.0 / len(decoded_list)
-        return accuary
-    except Exception as e:
-        print("Exception in get_accuarcy()!!")
-        return None
 
 # 定义训练过程
 def train():
