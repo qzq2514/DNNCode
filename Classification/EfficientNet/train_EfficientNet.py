@@ -121,14 +121,14 @@ def next_batch(is_random_sample,indices,image_paths,labels):
         image_id+=1
         image_resized=cv2.resize(image,(input_width,input_height))
 
-        image_np_resized=np.resize(image_resized,(input_width,input_height,channals))
+        image_np_resized=np.resize(image_resized,(input_height,input_width,channals))
         batch_images_data.append(image_np_resized)
 
     batch_images_data=np.array(batch_images_data)
     return batch_images_data,batch_labels
 
 def train():
-    input_placeholder=tf.placeholder(tf.float32,shape=[None,input_width,input_height,channals],name="inputs")
+    input_placeholder=tf.placeholder(tf.float32,shape=[None,input_height,input_width,channals],name="inputs")
     labels_placeholder=tf.placeholder(tf.int32,shape=[None],name="labels")
     is_training_placeholder = tf.placeholder_with_default(False, shape=(), name="is_training")
     keep_prob_placeholder = tf.placeholder_with_default(1.0, shape=(), name="keep_prob")
