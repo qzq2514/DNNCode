@@ -52,5 +52,5 @@ it may floats because of training steps 、learning rate and any other hyper par
 
 #### Triplet Loss - base
 number between images is the distance of the pair images  
-threshold can be set 1.0 to determine if the two images are from the same person.  
+threshold can be set to 1.0 to determine if the two images are from the same person.  
 ![](https://github.com/qzq2514/ImageForGithubMakdown/blob/master/DNNCode/face.PNG)
