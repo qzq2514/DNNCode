@@ -46,3 +46,11 @@ it may floats because of training steps 、learning rate and any other hyper par
 #### CTC Loss - base
 ![](https://github.com/qzq2514/ImageForGithubMakdown/blob/master/Patents/SecondPatent/CTC_rec_res1.png)
 ![](https://github.com/qzq2514/ImageForGithubMakdown/blob/master/Patents/SecondPatent/CTC_rec_res2.png)
+
+
+## face recognition:
+
+#### Triplet Loss - base
+number between images is the distance of the pair images  
+threshold can be set 1.0 to determine if the two images are from the same person.  
+![](https://github.com/qzq2514/ImageForGithubMakdown/blob/master/DNNCode/face.PNG)
