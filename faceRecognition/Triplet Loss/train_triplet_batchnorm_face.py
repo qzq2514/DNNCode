@@ -15,10 +15,8 @@ support_image_extensions=[".jpg",".png",".jpeg",".bmp"]
 margin=1.0
 channals=3
 
-#"D:/forTensorflow/SimpleLFW/LFW_train"
-#"P:/WorkSpace/VS2015/FaceRecognition/FaceRecognition/trainData/faceData/dataBase41"
-train_image_root="P:/WorkSpace/VS2015/FaceRecognition/FaceRecognition/trainData/faceData/dataBase41"
-test_image_root="P:/WorkSpace/VS2015/FaceRecognition/FaceRecognition/trainData/faceData/dataBase41"
+train_image_root="../dataBase41"
+test_image_root="../dataBase41"
 
 model_path="models/"
 pb_path=os.path.join(model_path,"pb/")

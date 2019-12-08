@@ -7,7 +7,7 @@ import os
 import dataset
 
 model_path = 'models/pb/siamese_triplet_28out_bn_face2-200.pb'
-eval_root =   "P:/WorkSpace/VS2015/FaceRecognition/FaceRecognition/trainData/faceData/dataBase41"
+eval_root =   "../dataBase40"
 
 batch_size=16
 input_height=32

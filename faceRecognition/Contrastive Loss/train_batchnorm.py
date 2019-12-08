@@ -14,9 +14,9 @@ snapshot=100
 support_image_extensions=[".jpg",".png",".jpeg",".bmp"]
 margin=2
 channals=3
-# "P:/WorkSpace/VS2015/FaceRecognition/FaceRecognition/trainData/faceData/dataBase41"
-train_image_root="P:/WorkSpace/VS2015/FaceRecognition/FaceRecognition/trainData/faceData/dataBase41"
-test_image_root="P:/WorkSpace/VS2015/FaceRecognition/FaceRecognition/trainData/faceData/dataBase41"
+
+train_image_root="../dataBase40"
+test_image_root="../dataBase40"
 
 model_path="models/"
 pb_path=os.path.join(model_path,"pb/")
